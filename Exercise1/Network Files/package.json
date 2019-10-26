@@ -1,0 +1,15 @@
+{
+  "name": "network-files",
+  "version": "1.0.0",
+  "description": "",
+  "main": "convert.js",
+  "dependencies": {
+    "xml2js": "^0.4.22"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node convert.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
