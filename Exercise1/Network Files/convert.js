@@ -24,11 +24,18 @@ function buildNodes(nodes) {
 
 // pull edge info from interaction list
 function buildEdges(edges) {
+    const map = new Map();
+
     return edges.map((e) => {
         return {
             from: e.participantList[0].participant[0].interactorRef[0],
             to: e.participantList[0].participant[1].interactorRef[0]
         }
+    }).filter(e => {
+        // only allow unique connections
+        const set = !map.has(JSON.stringify(e));
+        map.set(JSON.stringify(e), true);
+        return set;
     });
 }
 
