@@ -38,3 +38,5 @@ ogdf/output_binary.bin
 ogdf/libCOIN.a
 
 ogdf/libOGDF.a
+
+ogdf/.vs/

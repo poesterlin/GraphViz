@@ -5,11 +5,24 @@ set -e
 
 path="."
 
-echo --- cmake
-cmake -DOGDF_WARNING_ERRORS=OFF $path
+if [ -z "$1" ]
+  then
+    echo "No filename supplied. For some-script.cpp use arguement some-script"
+    exit 1
+  else
+    if [ $1 = "--skip" ]
+      then
+          echo --- skip build
+          shift
+      else
+        echo --- cmake
+        cmake -DOGDF_WARNING_ERRORS=OFF $path
 
-echo --- make
-make -j16
+        echo --- make
+        make -j16
+      fi
+fi
+
 
 
 echo --- compile source files
@@ -22,7 +35,7 @@ do
 done
 
 echo --- link source files
-g++ -std=c++11 -o output_binary.bin -L$path/ $FILES -lOGDF -lCOIN
+g++ -std=c++11 -o output_binary.bin -L$path/ $FILES -lOGDF -lCOIN -pthread
 
 echo --- delete o files
 rm $FILES
@@ -31,4 +44,7 @@ echo --- change access rights
 chmod +x output_binary.bin
 
 echo --- run binary
+echo
+echo
+echo
 ./output_binary.bin
