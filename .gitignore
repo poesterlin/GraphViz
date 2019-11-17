@@ -1,2 +1,34 @@
 
+ogdf/build/
+
 Exercise1/Network Files/node_modules/
+
+ogdf/out/build/
+
+ogdf/doc/
+
+*.db
+
+ogdf/.vs/ogdf/v16/ipch/
+
+ogdf/.vs/slnx.sqlite
+
+ogdf/.vs/ogdf/v16/.suo
+
+ogdf/CMakeFiles/
+
+ogdf/include/
+
+ogdf/html/
+
+ogdf/latex/
+
+*.cmake
+
+ogdf/CMakeCache.txt
+
+ogdf/CMakeDoxyfile.in
+
+ogdf/Makefile
+
+ogdf/lib/include/

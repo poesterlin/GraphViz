@@ -1,0 +1,1890 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- Created by the Gravisto/VANTED graphML writer plugin on Thu Nov 07 09:01:37 CET 2019. --><graphml xmlns="http://graphml.graphdrawing.org/xmlns/graphml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns/graphml http://graphml.graphdrawing.org/xmlns/graphml/graphml-structure-1.0rc.xsd">
+<key attr.name=".directed" attr.type="boolean" for="graph" id="ga0"/>
+<key attr.name=".graphbackgroundcolor" attr.type="string" for="graph" id="ga1"/>
+<key attr.name=".graphics.dimension.height" attr.type="double" for="node" id="na82"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_20.PATTERN_INDEX" attr.type="int" for="node" id="na50"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_12.PATTERN_NAME" attr.type="string" for="node" id="na15"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_8.PATTERN_NAME" attr.type="string" for="node" id="na75"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_11.PATTERN_INDEX" attr.type="int" for="node" id="na10"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_16.PATTERN_INDEX" attr.type="int" for="node" id="na30"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_15.NODE_INDEX" attr.type="int" for="node" id="na25"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_11.INTERNAL_NODE_INDEX" attr.type="int" for="node" id="na8"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_6.NODE_INDEX" attr.type="int" for="node" id="na65"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_5.PATTERN_INDEX" attr.type="int" for="node" id="na62"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_9.NODE_INDEX" attr.type="int" for="node" id="na77"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_12.NODE_INDEX" attr.type="int" for="node" id="na13"/>
+<key attr.name=".graphics.gradient" attr.type="double" for="node" id="na89"/>
+<key attr.name=".graphics.coordinate.x" attr.type="double" for="node" id="na80"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_12.INTERNAL_NODE_INDEX" attr.type="int" for="node" id="na12"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_20.PATTERN_NAME" attr.type="string" for="node" id="na51"/>
+<key attr.name=".graphics.coordinate.y" attr.type="double" for="node" id="na81"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_7.PATTERN_NAME" attr.type="string" for="node" id="na71"/>
+<key attr.name=".graphics.dimension.width" attr.type="double" for="node" id="na83"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_9.INTERNAL_NODE_INDEX" attr.type="int" for="node" id="na76"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_4.PATTERN_NAME" attr.type="string" for="node" id="na59"/>
+<key attr.name=".labelgraphics.position.relVert" attr.type="double" for="node" id="na108"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_3.PATTERN_NAME" attr.type="string" for="node" id="na55"/>
+<key attr.name=".labelgraphics.fontSize" attr.type="int" for="node" id="na102"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_14.NODE_INDEX" attr.type="int" for="node" id="na21"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_11.PATTERN_NAME" attr.type="string" for="node" id="na11"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_14.PATTERN_INDEX" attr.type="int" for="node" id="na22"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_7.PATTERN_INDEX" attr.type="int" for="node" id="na70"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_17.NODE_INDEX" attr.type="int" for="node" id="na33"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_5.NODE_INDEX" attr.type="int" for="node" id="na61"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_13.INTERNAL_NODE_INDEX" attr.type="int" for="node" id="na16"/>
+<key attr.name=".graphics.linemode" attr.type="string" for="node" id="na90"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_13.PATTERN_NAME" attr.type="string" for="node" id="na19"/>
+<key attr.name=".graphics.outline.red" attr.type="int" for="node" id="na95"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_1.INTERNAL_NODE_INDEX" attr.type="int" for="node" id="na0"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_14.INTERNAL_NODE_INDEX" attr.type="int" for="node" id="na20"/>
+<key attr.name=".graphics.rounding" attr.type="double" for="node" id="na96"/>
+<key attr.name=".labelgraphics.position.localAlign" attr.type="double" for="node" id="na106"/>
+<key attr.name=".zlevel" attr.type="int" for="node" id="na111"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_2.NODE_INDEX" attr.type="int" for="node" id="na45"/>
+<key attr.name=".graphics.frameThickness" attr.type="double" for="node" id="na88"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_3.INTERNAL_NODE_INDEX" attr.type="int" for="node" id="na52"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_16.NODE_INDEX" attr.type="int" for="node" id="na29"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_19.NODE_INDEX" attr.type="int" for="node" id="na41"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_3.NODE_INDEX" attr.type="int" for="node" id="na53"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_8.PATTERN_INDEX" attr.type="int" for="node" id="na74"/>
+<key attr.name=".graphics.fill.green" attr.type="int" for="node" id="na85"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_13.PATTERN_INDEX" attr.type="int" for="node" id="na18"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_19.PATTERN_NAME" attr.type="string" for="node" id="na43"/>
+<key attr.name=".graphics.outline.blue" attr.type="int" for="node" id="na92"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_18.NODE_INDEX" attr.type="int" for="node" id="na37"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_4.NODE_INDEX" attr.type="int" for="node" id="na57"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_15.PATTERN_NAME" attr.type="string" for="node" id="na27"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_2.INTERNAL_NODE_INDEX" attr.type="int" for="node" id="na44"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_15.INTERNAL_NODE_INDEX" attr.type="int" for="node" id="na24"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_17.PATTERN_NAME" attr.type="string" for="node" id="na35"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_10.PATTERN_NAME" attr.type="string" for="node" id="na7"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_16.INTERNAL_NODE_INDEX" attr.type="int" for="node" id="na28"/>
+<key attr.name=".graphics.fill.blue" attr.type="int" for="node" id="na84"/>
+<key attr.name=".graphics.opacity" attr.type="double" for="node" id="na91"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_14.PATTERN_NAME" attr.type="string" for="node" id="na23"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_12.PATTERN_INDEX" attr.type="int" for="node" id="na14"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_4.INTERNAL_NODE_INDEX" attr.type="int" for="node" id="na56"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_5.INTERNAL_NODE_INDEX" attr.type="int" for="node" id="na60"/>
+<key attr.name=".graphics.outline.opacity" attr.type="int" for="node" id="na94"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_9.PATTERN_INDEX" attr.type="int" for="node" id="na78"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_1.NODE_INDEX" attr.type="int" for="node" id="na1"/>
+<key attr.name=".labelgraphics.labelOffset.x" attr.type="double" for="node" id="na104"/>
+<key attr.name=".labelgraphics.labelOffset.y" attr.type="double" for="node" id="na105"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_6.PATTERN_INDEX" attr.type="int" for="node" id="na66"/>
+<key attr.name=".labelgraphics.text" attr.type="string" for="node" id="na109"/>
+<key attr.name=".labelgraphics.fontName" attr.type="string" for="node" id="na101"/>
+<key attr.name=".labelgraphics.color" attr.type="string" for="node" id="na100"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_7.NODE_INDEX" attr.type="int" for="node" id="na69"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_17.INTERNAL_NODE_INDEX" attr.type="int" for="node" id="na32"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_1.PATTERN_INDEX" attr.type="int" for="node" id="na2"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_18.INTERNAL_NODE_INDEX" attr.type="int" for="node" id="na36"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_13.NODE_INDEX" attr.type="int" for="node" id="na17"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_6.PATTERN_NAME" attr.type="string" for="node" id="na67"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_10.PATTERN_INDEX" attr.type="int" for="node" id="na6"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_5.PATTERN_NAME" attr.type="string" for="node" id="na63"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_1.PATTERN_NAME" attr.type="string" for="node" id="na3"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_15.PATTERN_INDEX" attr.type="int" for="node" id="na26"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_2.PATTERN_NAME" attr.type="string" for="node" id="na47"/>
+<key attr.name=".labelgraphics.type" attr.type="string" for="node" id="na110"/>
+<key attr.name=".graphics.fill.red" attr.type="int" for="node" id="na87"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_19.PATTERN_INDEX" attr.type="int" for="node" id="na42"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_8.NODE_INDEX" attr.type="int" for="node" id="na73"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_11.NODE_INDEX" attr.type="int" for="node" id="na9"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_2.PATTERN_INDEX" attr.type="int" for="node" id="na46"/>
+<key attr.name=".labelgraphics.fontStyle" attr.type="string" for="node" id="na103"/>
+<key attr.name=".labelgraphics.position.relHor" attr.type="double" for="node" id="na107"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_8.INTERNAL_NODE_INDEX" attr.type="int" for="node" id="na72"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_9.PATTERN_NAME" attr.type="string" for="node" id="na79"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_19.INTERNAL_NODE_INDEX" attr.type="int" for="node" id="na40"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_3.PATTERN_INDEX" attr.type="int" for="node" id="na54"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_20.INTERNAL_NODE_INDEX" attr.type="int" for="node" id="na48"/>
+<key attr.name=".labelgraphics.alignment" attr.type="string" for="node" id="na98"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_18.PATTERN_INDEX" attr.type="int" for="node" id="na38"/>
+<key attr.name=".labelgraphics.anchor" attr.type="string" for="node" id="na99"/>
+<key attr.name=".graphics.shape" attr.type="string" for="node" id="na97"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_6.INTERNAL_NODE_INDEX" attr.type="int" for="node" id="na64"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_4.PATTERN_INDEX" attr.type="int" for="node" id="na58"/>
+<key attr.name=".graphics.fill.opacity" attr.type="int" for="node" id="na86"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_16.PATTERN_NAME" attr.type="string" for="node" id="na31"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_20.NODE_INDEX" attr.type="int" for="node" id="na49"/>
+<key attr.name=".graphics.outline.green" attr.type="int" for="node" id="na93"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_10.NODE_INDEX" attr.type="int" for="node" id="na5"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_18.PATTERN_NAME" attr.type="string" for="node" id="na39"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_17.PATTERN_INDEX" attr.type="int" for="node" id="na34"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_7.INTERNAL_NODE_INDEX" attr.type="int" for="node" id="na68"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_10.INTERNAL_NODE_INDEX" attr.type="int" for="node" id="na4"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_19.EDGE_INDEX" attr.type="int" for="edge" id="ea30"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_20.PATTERN_INDEX" attr.type="int" for="edge" id="ea37"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_7.EDGE_INDEX" attr.type="int" for="edge" id="ea75"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_12.PATTERN_NAME" attr.type="string" for="edge" id="ea11"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_28.PATTERN_NAME" attr.type="string" for="edge" id="ea62"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_8.PATTERN_NAME" attr.type="string" for="edge" id="ea80"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_11.PATTERN_INDEX" attr.type="int" for="edge" id="ea7"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_16.PATTERN_INDEX" attr.type="int" for="edge" id="ea22"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_24.PATTERN_NAME" attr.type="string" for="edge" id="ea50"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_5.PATTERN_INDEX" attr.type="int" for="edge" id="ea70"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_10.EDGE_INDEX" attr.type="int" for="edge" id="ea3"/>
+<key attr.name=".graphics.gradient" attr.type="double" for="edge" id="ea93"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_20.EDGE_INDEX" attr.type="int" for="edge" id="ea36"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_4.EDGE_INDEX" attr.type="int" for="edge" id="ea66"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_20.PATTERN_NAME" attr.type="string" for="edge" id="ea38"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_23.EDGE_INDEX" attr.type="int" for="edge" id="ea45"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_7.PATTERN_NAME" attr.type="string" for="edge" id="ea77"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_13.EDGE_INDEX" attr.type="int" for="edge" id="ea12"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_4.PATTERN_NAME" attr.type="string" for="edge" id="ea68"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_25.PATTERN_INDEX" attr.type="int" for="edge" id="ea52"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_3.PATTERN_NAME" attr.type="string" for="edge" id="ea65"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_11.PATTERN_NAME" attr.type="string" for="edge" id="ea8"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_12.EDGE_INDEX" attr.type="int" for="edge" id="ea9"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_14.PATTERN_INDEX" attr.type="int" for="edge" id="ea16"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_7.PATTERN_INDEX" attr.type="int" for="edge" id="ea76"/>
+<key attr.name=".graphics.linemode" attr.type="string" for="edge" id="ea94"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_13.PATTERN_NAME" attr.type="string" for="edge" id="ea14"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_27.PATTERN_INDEX" attr.type="int" for="edge" id="ea58"/>
+<key attr.name=".graphics.outline.red" attr.type="int" for="edge" id="ea100"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_27.PATTERN_NAME" attr.type="string" for="edge" id="ea59"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_23.PATTERN_NAME" attr.type="string" for="edge" id="ea47"/>
+<key attr.name=".graphics.rounding" attr.type="double" for="edge" id="ea101"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_8.EDGE_INDEX" attr.type="int" for="edge" id="ea78"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_25.PATTERN_NAME" attr.type="string" for="edge" id="ea53"/>
+<key attr.name=".graphics.frameThickness" attr.type="double" for="edge" id="ea92"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_8.PATTERN_INDEX" attr.type="int" for="edge" id="ea79"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_28.PATTERN_INDEX" attr.type="int" for="edge" id="ea61"/>
+<key attr.name=".graphics.fill.green" attr.type="int" for="edge" id="ea89"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_13.PATTERN_INDEX" attr.type="int" for="edge" id="ea13"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_9.EDGE_INDEX" attr.type="int" for="edge" id="ea81"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_19.PATTERN_NAME" attr.type="string" for="edge" id="ea32"/>
+<key attr.name=".graphics.outline.blue" attr.type="int" for="edge" id="ea97"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_15.PATTERN_NAME" attr.type="string" for="edge" id="ea20"/>
+<key attr.name=".graphics.arrowtail" attr.type="string" for="edge" id="ea85"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_17.PATTERN_NAME" attr.type="string" for="edge" id="ea26"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_10.PATTERN_NAME" attr.type="string" for="edge" id="ea5"/>
+<key attr.name=".graphics.fill.blue" attr.type="int" for="edge" id="ea88"/>
+<key attr.name=".graphics.opacity" attr.type="double" for="edge" id="ea96"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_14.PATTERN_NAME" attr.type="string" for="edge" id="ea17"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_12.PATTERN_INDEX" attr.type="int" for="edge" id="ea10"/>
+<key attr.name=".graphics.outline.opacity" attr.type="int" for="edge" id="ea99"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_24.PATTERN_INDEX" attr.type="int" for="edge" id="ea49"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_9.PATTERN_INDEX" attr.type="int" for="edge" id="ea82"/>
+<key attr.name=".graphics.docking.target" attr.type="string" for="edge" id="ea87"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_24.EDGE_INDEX" attr.type="int" for="edge" id="ea48"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_14.EDGE_INDEX" attr.type="int" for="edge" id="ea15"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_26.PATTERN_NAME" attr.type="string" for="edge" id="ea56"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_21.PATTERN_INDEX" attr.type="int" for="edge" id="ea40"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_6.PATTERN_INDEX" attr.type="int" for="edge" id="ea73"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_21.PATTERN_NAME" attr.type="string" for="edge" id="ea41"/>
+<key attr.name=".graphics.linetype" attr.type="string" for="edge" id="ea95"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_22.PATTERN_NAME" attr.type="string" for="edge" id="ea44"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_26.PATTERN_INDEX" attr.type="int" for="edge" id="ea55"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_11.EDGE_INDEX" attr.type="int" for="edge" id="ea6"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_1.PATTERN_INDEX" attr.type="int" for="edge" id="ea1"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_21.EDGE_INDEX" attr.type="int" for="edge" id="ea39"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_5.EDGE_INDEX" attr.type="int" for="edge" id="ea69"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_6.PATTERN_NAME" attr.type="string" for="edge" id="ea74"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_10.PATTERN_INDEX" attr.type="int" for="edge" id="ea4"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_5.PATTERN_NAME" attr.type="string" for="edge" id="ea71"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_1.PATTERN_NAME" attr.type="string" for="edge" id="ea2"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_15.PATTERN_INDEX" attr.type="int" for="edge" id="ea19"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_6.EDGE_INDEX" attr.type="int" for="edge" id="ea72"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_2.PATTERN_NAME" attr.type="string" for="edge" id="ea35"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_22.EDGE_INDEX" attr.type="int" for="edge" id="ea42"/>
+<key attr.name=".graphics.fill.red" attr.type="int" for="edge" id="ea91"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_19.PATTERN_INDEX" attr.type="int" for="edge" id="ea31"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_25.EDGE_INDEX" attr.type="int" for="edge" id="ea51"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_2.PATTERN_INDEX" attr.type="int" for="edge" id="ea34"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_15.EDGE_INDEX" attr.type="int" for="edge" id="ea18"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_3.EDGE_INDEX" attr.type="int" for="edge" id="ea63"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_28.EDGE_INDEX" attr.type="int" for="edge" id="ea60"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_9.PATTERN_NAME" attr.type="string" for="edge" id="ea83"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_3.PATTERN_INDEX" attr.type="int" for="edge" id="ea64"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_18.PATTERN_INDEX" attr.type="int" for="edge" id="ea28"/>
+<key attr.name=".graphics.thickness" attr.type="double" for="edge" id="ea103"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_22.PATTERN_INDEX" attr.type="int" for="edge" id="ea43"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_18.EDGE_INDEX" attr.type="int" for="edge" id="ea27"/>
+<key attr.name=".graphics.shape" attr.type="string" for="edge" id="ea102"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_27.EDGE_INDEX" attr.type="int" for="edge" id="ea57"/>
+<key attr.name=".graphics.docking.source" attr.type="string" for="edge" id="ea86"/>
+<key attr.name=".graphics.arrowhead" attr.type="string" for="edge" id="ea84"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_1.EDGE_INDEX" attr.type="int" for="edge" id="ea0"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_17.EDGE_INDEX" attr.type="int" for="edge" id="ea24"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_4.PATTERN_INDEX" attr.type="int" for="edge" id="ea67"/>
+<key attr.name=".graphics.fill.opacity" attr.type="int" for="edge" id="ea90"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_16.PATTERN_NAME" attr.type="string" for="edge" id="ea23"/>
+<key attr.name=".graphics.outline.green" attr.type="int" for="edge" id="ea98"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_18.PATTERN_NAME" attr.type="string" for="edge" id="ea29"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_26.EDGE_INDEX" attr.type="int" for="edge" id="ea54"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_17.PATTERN_INDEX" attr.type="int" for="edge" id="ea25"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_2.EDGE_INDEX" attr.type="int" for="edge" id="ea33"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_23.PATTERN_INDEX" attr.type="int" for="edge" id="ea46"/>
+<key attr.name=".AGNW.PATTERN.PATTERN_16.EDGE_INDEX" attr.type="int" for="edge" id="ea21"/>
+<graph edgedefault="directed" id="G">
+<data key="ga1">#ffffff</data>
+<data key="ga0">true</data>
+<node id="n20">
+<data key="na111">-1</data>
+<data key="na110">text</data>
+<data key="na49">3</data>
+<data key="na48">2</data>
+<data key="na47">Pattern_circle_4_7</data>
+<data key="na46">2</data>
+<data key="na45">1</data>
+<data key="na44">0</data>
+<data key="na43">Pattern_circle_3_8</data>
+<data key="na42">11</data>
+<data key="na41">3</data>
+<data key="na40">2</data>
+<data key="na109">Peter</data>
+<data key="na108">0.0</data>
+<data key="na107">0.0</data>
+<data key="na106">0.0</data>
+<data key="na105">0.0</data>
+<data key="na104">0.0</data>
+<data key="na103">plain</data>
+<data key="na102">12</data>
+<data key="na101">Arial</data>
+<data key="na100">#000000</data>
+<data key="na39">Pattern_circle_3_8</data>
+<data key="na38">10</data>
+<data key="na37">2</data>
+<data key="na36">1</data>
+<data key="na35">Pattern_circle_3_8</data>
+<data key="na99">c</data>
+<data key="na34">9</data>
+<data key="na98">center</data>
+<data key="na33">2</data>
+<data key="na97">org.graffiti.plugins.views.defaults.RectangleNodeShape</data>
+<data key="na32">1</data>
+<data key="na96">5.0</data>
+<data key="na31">Pattern_circle_3_8</data>
+<data key="na95">0</data>
+<data key="na30">8</data>
+<data key="na94">255</data>
+<data key="na93">0</data>
+<data key="na92">0</data>
+<data key="na91">1.0</data>
+<data key="na90"> 0.0</data>
+<data key="na29">3</data>
+<data key="na28">2</data>
+<data key="na27">Pattern_circle_3_8</data>
+<data key="na26">7</data>
+<data key="na25">2</data>
+<data key="na89">0.0</data>
+<data key="na24">1</data>
+<data key="na88">2.0</data>
+<data key="na23">Pattern_circle_3_8</data>
+<data key="na87">255</data>
+<data key="na22">6</data>
+<data key="na86">255</data>
+<data key="na21">3</data>
+<data key="na85">255</data>
+<data key="na20">2</data>
+<data key="na84">255</data>
+<data key="na83">50.0</data>
+<data key="na82">25.0</data>
+<data key="na81">95.56821503352728</data>
+<data key="na80">265.074809263386</data>
+<data key="na9">1</data>
+<data key="na8">0</data>
+<data key="na7">Pattern_circle_3_8</data>
+<data key="na6">2</data>
+<data key="na5">1</data>
+<data key="na4">0</data>
+<data key="na3">Pattern_circle_4_7</data>
+<data key="na2">1</data>
+<data key="na1">1</data>
+<data key="na0">0</data>
+<data key="na19">Pattern_circle_3_8</data>
+<data key="na18">5</data>
+<data key="na17">2</data>
+<data key="na16">1</data>
+<data key="na15">Pattern_circle_3_8</data>
+<data key="na79">Pattern_circle_3_8</data>
+<data key="na14">4</data>
+<data key="na78">1</data>
+<data key="na13">1</data>
+<data key="na77">1</data>
+<data key="na12">0</data>
+<data key="na76">0</data>
+<data key="na11">Pattern_circle_3_8</data>
+<data key="na75">Pattern_circle_4_7</data>
+<data key="na10">3</data>
+<data key="na74">8</data>
+<data key="na73">3</data>
+<data key="na72">2</data>
+<data key="na71">Pattern_circle_4_7</data>
+<data key="na70">7</data>
+<data key="na69">3</data>
+<data key="na68">2</data>
+<data key="na67">Pattern_circle_4_7</data>
+<data key="na66">6</data>
+<data key="na65">4</data>
+<data key="na64">3</data>
+<data key="na63">Pattern_circle_4_7</data>
+<data key="na62">5</data>
+<data key="na61">2</data>
+<data key="na60">1</data>
+<data key="na59">Pattern_circle_4_7</data>
+<data key="na58">4</data>
+<data key="na57">4</data>
+<data key="na56">3</data>
+<data key="na55">Pattern_circle_4_7</data>
+<data key="na54">3</data>
+<data key="na53">2</data>
+<data key="na52">1</data>
+<data key="na51">Pattern_circle_3_8</data>
+<data key="na50">12</data>
+</node>
+<node id="n21">
+<data key="na111">-1</data>
+<data key="na110">text</data>
+<data key="na47">Pattern_circle_4_7</data>
+<data key="na46">2</data>
+<data key="na45">4</data>
+<data key="na44">3</data>
+<data key="na109">Sarah</data>
+<data key="na108">0.0</data>
+<data key="na107">0.0</data>
+<data key="na106">0.0</data>
+<data key="na105">0.0</data>
+<data key="na104">0.0</data>
+<data key="na103">plain</data>
+<data key="na102">12</data>
+<data key="na101">Arial</data>
+<data key="na100">#000000</data>
+<data key="na99">c</data>
+<data key="na98">center</data>
+<data key="na97">org.graffiti.plugins.views.defaults.RectangleNodeShape</data>
+<data key="na96">5.0</data>
+<data key="na95">0</data>
+<data key="na94">255</data>
+<data key="na93">0</data>
+<data key="na92">0</data>
+<data key="na91">1.0</data>
+<data key="na90"> 0.0</data>
+<data key="na89">0.0</data>
+<data key="na23">Pattern_circle_3_8</data>
+<data key="na88">2.0</data>
+<data key="na22">11</data>
+<data key="na87">255</data>
+<data key="na21">2</data>
+<data key="na86">255</data>
+<data key="na20">1</data>
+<data key="na85">255</data>
+<data key="na84">255</data>
+<data key="na83">50.0</data>
+<data key="na82">25.0</data>
+<data key="na81">149.34674026277457</data>
+<data key="na80">265.9765087008807</data>
+<data key="na9">1</data>
+<data key="na8">0</data>
+<data key="na7">Pattern_circle_3_8</data>
+<data key="na6">3</data>
+<data key="na5">3</data>
+<data key="na4">2</data>
+<data key="na3">Pattern_circle_4_7</data>
+<data key="na2">1</data>
+<data key="na1">2</data>
+<data key="na0">1</data>
+<data key="na19">Pattern_circle_3_8</data>
+<data key="na18">9</data>
+<data key="na17">3</data>
+<data key="na16">2</data>
+<data key="na15">Pattern_circle_3_8</data>
+<data key="na14">6</data>
+<data key="na79">Pattern_circle_3_8</data>
+<data key="na13">1</data>
+<data key="na78">1</data>
+<data key="na12">0</data>
+<data key="na77">2</data>
+<data key="na11">Pattern_circle_3_8</data>
+<data key="na76">1</data>
+<data key="na10">5</data>
+<data key="na75">Pattern_circle_4_7</data>
+<data key="na74">8</data>
+<data key="na73">4</data>
+<data key="na72">3</data>
+<data key="na71">Pattern_circle_4_7</data>
+<data key="na70">7</data>
+<data key="na69">2</data>
+<data key="na68">1</data>
+<data key="na67">Pattern_circle_4_7</data>
+<data key="na66">6</data>
+<data key="na65">3</data>
+<data key="na64">2</data>
+<data key="na63">Pattern_circle_4_7</data>
+<data key="na62">5</data>
+<data key="na61">3</data>
+<data key="na60">2</data>
+<data key="na59">Pattern_circle_4_7</data>
+<data key="na58">4</data>
+<data key="na57">1</data>
+<data key="na56">0</data>
+<data key="na55">Pattern_circle_4_7</data>
+<data key="na54">3</data>
+<data key="na53">1</data>
+<data key="na52">0</data>
+</node>
+<node id="n22">
+<data key="na83">50.0</data>
+<data key="na82">25.0</data>
+<data key="na111">-1</data>
+<data key="na81">203.12526549202198</data>
+<data key="na110">text</data>
+<data key="na80">266.8782081383755</data>
+<data key="na99">c</data>
+<data key="na98">center</data>
+<data key="na97">org.graffiti.plugins.views.defaults.RectangleNodeShape</data>
+<data key="na96">5.0</data>
+<data key="na95">0</data>
+<data key="na94">255</data>
+<data key="na93">0</data>
+<data key="na92">0</data>
+<data key="na91">1.0</data>
+<data key="na90"> 0.0</data>
+<data key="na109">Lena</data>
+<data key="na108">0.0</data>
+<data key="na107">0.0</data>
+<data key="na106">0.0</data>
+<data key="na105">0.0</data>
+<data key="na104">0.0</data>
+<data key="na103">plain</data>
+<data key="na102">12</data>
+<data key="na101">Arial</data>
+<data key="na100">#000000</data>
+<data key="na89">0.0</data>
+<data key="na88">2.0</data>
+<data key="na87">255</data>
+<data key="na86">255</data>
+<data key="na85">255</data>
+<data key="na84">255</data>
+</node>
+<node id="n23">
+<data key="na111">-1</data>
+<data key="na110">text</data>
+<data key="na47">Pattern_circle_4_7</data>
+<data key="na46">2</data>
+<data key="na45">2</data>
+<data key="na44">1</data>
+<data key="na109">Hanna</data>
+<data key="na108">0.0</data>
+<data key="na107">0.0</data>
+<data key="na106">0.0</data>
+<data key="na105">0.0</data>
+<data key="na104">0.0</data>
+<data key="na103">plain</data>
+<data key="na102">12</data>
+<data key="na101">Arial</data>
+<data key="na100">#000000</data>
+<data key="na99">c</data>
+<data key="na98">center</data>
+<data key="na97">org.graffiti.plugins.views.defaults.RectangleNodeShape</data>
+<data key="na96">5.0</data>
+<data key="na95">0</data>
+<data key="na94">255</data>
+<data key="na93">0</data>
+<data key="na92">0</data>
+<data key="na91">1.0</data>
+<data key="na90"> 0.0</data>
+<data key="na89">0.0</data>
+<data key="na23">Pattern_circle_3_8</data>
+<data key="na88">2.0</data>
+<data key="na22">12</data>
+<data key="na87">255</data>
+<data key="na21">2</data>
+<data key="na86">255</data>
+<data key="na20">1</data>
+<data key="na85">255</data>
+<data key="na84">255</data>
+<data key="na83">50.0</data>
+<data key="na82">25.0</data>
+<data key="na81">45.673866663042645</data>
+<data key="na80">214.1731098258913</data>
+<data key="na9">1</data>
+<data key="na8">0</data>
+<data key="na7">Pattern_circle_3_8</data>
+<data key="na6">4</data>
+<data key="na5">3</data>
+<data key="na4">2</data>
+<data key="na3">Pattern_circle_4_7</data>
+<data key="na2">1</data>
+<data key="na1">4</data>
+<data key="na0">3</data>
+<data key="na19">Pattern_circle_3_8</data>
+<data key="na18">10</data>
+<data key="na17">3</data>
+<data key="na16">2</data>
+<data key="na15">Pattern_circle_3_8</data>
+<data key="na14">8</data>
+<data key="na79">Pattern_circle_3_8</data>
+<data key="na13">1</data>
+<data key="na78">2</data>
+<data key="na12">0</data>
+<data key="na77">2</data>
+<data key="na11">Pattern_circle_3_8</data>
+<data key="na76">1</data>
+<data key="na10">7</data>
+<data key="na75">Pattern_circle_4_7</data>
+<data key="na74">8</data>
+<data key="na73">2</data>
+<data key="na72">1</data>
+<data key="na71">Pattern_circle_4_7</data>
+<data key="na70">7</data>
+<data key="na69">4</data>
+<data key="na68">3</data>
+<data key="na67">Pattern_circle_4_7</data>
+<data key="na66">6</data>
+<data key="na65">1</data>
+<data key="na64">0</data>
+<data key="na63">Pattern_circle_4_7</data>
+<data key="na62">5</data>
+<data key="na61">1</data>
+<data key="na60">0</data>
+<data key="na59">Pattern_circle_4_7</data>
+<data key="na58">4</data>
+<data key="na57">3</data>
+<data key="na56">2</data>
+<data key="na55">Pattern_circle_4_7</data>
+<data key="na54">3</data>
+<data key="na53">3</data>
+<data key="na52">2</data>
+</node>
+<node id="n24">
+<data key="na111">-1</data>
+<data key="na110">text</data>
+<data key="na49">1</data>
+<data key="na48">0</data>
+<data key="na47">Pattern_circle_4_7</data>
+<data key="na46">2</data>
+<data key="na45">3</data>
+<data key="na44">2</data>
+<data key="na43">Pattern_circle_3_8</data>
+<data key="na42">11</data>
+<data key="na41">1</data>
+<data key="na40">0</data>
+<data key="na109">Daniel</data>
+<data key="na108">0.0</data>
+<data key="na107">0.0</data>
+<data key="na106">0.0</data>
+<data key="na105">0.0</data>
+<data key="na104">0.0</data>
+<data key="na103">plain</data>
+<data key="na102">12</data>
+<data key="na101">Arial</data>
+<data key="na100">#000000</data>
+<data key="na39">Pattern_circle_3_8</data>
+<data key="na38">10</data>
+<data key="na37">1</data>
+<data key="na36">0</data>
+<data key="na35">Pattern_circle_3_8</data>
+<data key="na99">c</data>
+<data key="na34">9</data>
+<data key="na98">center</data>
+<data key="na33">1</data>
+<data key="na97">org.graffiti.plugins.views.defaults.RectangleNodeShape</data>
+<data key="na32">0</data>
+<data key="na96">5.0</data>
+<data key="na31">Pattern_circle_3_8</data>
+<data key="na95">0</data>
+<data key="na30">8</data>
+<data key="na94">255</data>
+<data key="na93">0</data>
+<data key="na92">0</data>
+<data key="na91">1.0</data>
+<data key="na90"> 0.0</data>
+<data key="na29">2</data>
+<data key="na28">1</data>
+<data key="na27">Pattern_circle_3_8</data>
+<data key="na26">7</data>
+<data key="na25">3</data>
+<data key="na89">0.0</data>
+<data key="na24">2</data>
+<data key="na88">2.0</data>
+<data key="na23">Pattern_circle_3_8</data>
+<data key="na87">255</data>
+<data key="na22">6</data>
+<data key="na86">255</data>
+<data key="na21">2</data>
+<data key="na85">255</data>
+<data key="na20">1</data>
+<data key="na84">255</data>
+<data key="na83">50.0</data>
+<data key="na82">25.0</data>
+<data key="na81">92.5</data>
+<data key="na80">165.0</data>
+<data key="na9">2</data>
+<data key="na8">1</data>
+<data key="na7">Pattern_circle_3_8</data>
+<data key="na6">2</data>
+<data key="na5">3</data>
+<data key="na4">2</data>
+<data key="na3">Pattern_circle_4_7</data>
+<data key="na2">1</data>
+<data key="na1">3</data>
+<data key="na0">2</data>
+<data key="na19">Pattern_circle_3_8</data>
+<data key="na18">5</data>
+<data key="na17">3</data>
+<data key="na16">2</data>
+<data key="na15">Pattern_circle_3_8</data>
+<data key="na79">Pattern_circle_3_8</data>
+<data key="na14">4</data>
+<data key="na78">1</data>
+<data key="na13">2</data>
+<data key="na77">3</data>
+<data key="na12">1</data>
+<data key="na76">2</data>
+<data key="na11">Pattern_circle_3_8</data>
+<data key="na75">Pattern_circle_4_7</data>
+<data key="na10">3</data>
+<data key="na74">8</data>
+<data key="na73">1</data>
+<data key="na72">0</data>
+<data key="na71">Pattern_circle_4_7</data>
+<data key="na70">7</data>
+<data key="na69">1</data>
+<data key="na68">0</data>
+<data key="na67">Pattern_circle_4_7</data>
+<data key="na66">6</data>
+<data key="na65">2</data>
+<data key="na64">1</data>
+<data key="na63">Pattern_circle_4_7</data>
+<data key="na62">5</data>
+<data key="na61">4</data>
+<data key="na60">3</data>
+<data key="na59">Pattern_circle_4_7</data>
+<data key="na58">4</data>
+<data key="na57">2</data>
+<data key="na56">1</data>
+<data key="na55">Pattern_circle_4_7</data>
+<data key="na54">3</data>
+<data key="na53">4</data>
+<data key="na52">3</data>
+<data key="na51">Pattern_circle_3_8</data>
+<data key="na50">12</data>
+</node>
+<node id="n25">
+<data key="na111">-1</data>
+<data key="na110">text</data>
+<data key="na47">Pattern_circle_3_8</data>
+<data key="na46">14</data>
+<data key="na45">1</data>
+<data key="na44">0</data>
+<data key="na109">Marc</data>
+<data key="na108">0.0</data>
+<data key="na107">0.0</data>
+<data key="na106">0.0</data>
+<data key="na105">0.0</data>
+<data key="na104">0.0</data>
+<data key="na103">plain</data>
+<data key="na102">12</data>
+<data key="na101">Arial</data>
+<data key="na100">#000000</data>
+<data key="na99">c</data>
+<data key="na98">center</data>
+<data key="na97">org.graffiti.plugins.views.defaults.RectangleNodeShape</data>
+<data key="na96">5.0</data>
+<data key="na95">0</data>
+<data key="na94">255</data>
+<data key="na93">0</data>
+<data key="na92">0</data>
+<data key="na91">1.0</data>
+<data key="na90"> 0.0</data>
+<data key="na89">0.0</data>
+<data key="na88">2.0</data>
+<data key="na87">255</data>
+<data key="na86">255</data>
+<data key="na85">255</data>
+<data key="na84">255</data>
+<data key="na83">50.0</data>
+<data key="na82">25.0</data>
+<data key="na81">92.5</data>
+<data key="na80">100.0</data>
+<data key="na9">2</data>
+<data key="na8">1</data>
+<data key="na7">Pattern_circle_3_8</data>
+<data key="na6">22</data>
+<data key="na5">3</data>
+<data key="na4">2</data>
+<data key="na3">Pattern_circle_3_8</data>
+<data key="na2">13</data>
+<data key="na1">1</data>
+<data key="na0">0</data>
+<data key="na15">Pattern_circle_3_8</data>
+<data key="na14">24</data>
+<data key="na79">Pattern_circle_3_8</data>
+<data key="na13">3</data>
+<data key="na78">21</data>
+<data key="na12">2</data>
+<data key="na77">2</data>
+<data key="na11">Pattern_circle_3_8</data>
+<data key="na76">1</data>
+<data key="na10">23</data>
+<data key="na75">Pattern_circle_3_8</data>
+<data key="na74">20</data>
+<data key="na73">3</data>
+<data key="na72">2</data>
+<data key="na71">Pattern_circle_3_8</data>
+<data key="na70">19</data>
+<data key="na69">2</data>
+<data key="na68">1</data>
+<data key="na67">Pattern_circle_3_8</data>
+<data key="na66">18</data>
+<data key="na65">3</data>
+<data key="na64">2</data>
+<data key="na63">Pattern_circle_3_8</data>
+<data key="na62">17</data>
+<data key="na61">2</data>
+<data key="na60">1</data>
+<data key="na59">Pattern_circle_3_8</data>
+<data key="na58">16</data>
+<data key="na57">1</data>
+<data key="na56">0</data>
+<data key="na55">Pattern_circle_3_8</data>
+<data key="na54">15</data>
+<data key="na53">1</data>
+<data key="na52">0</data>
+</node>
+<node id="n26">
+<data key="na59">Pattern_circle_3_8</data>
+<data key="na58">18</data>
+<data key="na57">1</data>
+<data key="na89">0.0</data>
+<data key="na56">0</data>
+<data key="na88">2.0</data>
+<data key="na55">Pattern_circle_3_8</data>
+<data key="na87">255</data>
+<data key="na3">Pattern_circle_3_8</data>
+<data key="na54">17</data>
+<data key="na86">255</data>
+<data key="na2">13</data>
+<data key="na53">1</data>
+<data key="na85">255</data>
+<data key="na1">2</data>
+<data key="na84">255</data>
+<data key="na0">1</data>
+<data key="na52">0</data>
+<data key="na83">50.0</data>
+<data key="na82">25.0</data>
+<data key="na81">152.5</data>
+<data key="na80">67.5</data>
+<data key="na47">Pattern_circle_3_8</data>
+<data key="na46">14</data>
+<data key="na45">3</data>
+<data key="na44">2</data>
+<data key="na111">-1</data>
+<data key="na110">text</data>
+<data key="na99">c</data>
+<data key="na67">Pattern_circle_3_8</data>
+<data key="na98">center</data>
+<data key="na66">20</data>
+<data key="na97">org.graffiti.plugins.views.defaults.RectangleNodeShape</data>
+<data key="na65">2</data>
+<data key="na96">5.0</data>
+<data key="na64">1</data>
+<data key="na95">0</data>
+<data key="na63">Pattern_circle_3_8</data>
+<data key="na109">Alex</data>
+<data key="na94">255</data>
+<data key="na62">19</data>
+<data key="na108">0.0</data>
+<data key="na93">0</data>
+<data key="na61">3</data>
+<data key="na107">0.0</data>
+<data key="na92">0</data>
+<data key="na60">2</data>
+<data key="na106">0.0</data>
+<data key="na91">1.0</data>
+<data key="na105">0.0</data>
+<data key="na90"> 0.0</data>
+<data key="na104">0.0</data>
+<data key="na103">plain</data>
+<data key="na102">12</data>
+<data key="na101">Arial</data>
+<data key="na100">#000000</data>
+</node>
+<node id="n27">
+<data key="na59">Pattern_circle_3_8</data>
+<data key="na58">18</data>
+<data key="na57">2</data>
+<data key="na89">0.0</data>
+<data key="na56">1</data>
+<data key="na88">2.0</data>
+<data key="na55">Pattern_circle_3_8</data>
+<data key="na87">255</data>
+<data key="na3">Pattern_circle_3_8</data>
+<data key="na54">17</data>
+<data key="na86">255</data>
+<data key="na2">13</data>
+<data key="na53">3</data>
+<data key="na85">255</data>
+<data key="na1">3</data>
+<data key="na84">255</data>
+<data key="na0">2</data>
+<data key="na52">2</data>
+<data key="na83">50.0</data>
+<data key="na82">25.0</data>
+<data key="na81">152.5</data>
+<data key="na80">132.5</data>
+<data key="na47">Pattern_circle_3_8</data>
+<data key="na46">14</data>
+<data key="na45">2</data>
+<data key="na44">1</data>
+<data key="na111">-1</data>
+<data key="na110">text</data>
+<data key="na99">c</data>
+<data key="na67">Pattern_circle_3_8</data>
+<data key="na98">center</data>
+<data key="na66">20</data>
+<data key="na97">org.graffiti.plugins.views.defaults.RectangleNodeShape</data>
+<data key="na65">1</data>
+<data key="na96">5.0</data>
+<data key="na64">0</data>
+<data key="na95">0</data>
+<data key="na63">Pattern_circle_3_8</data>
+<data key="na109">Michael</data>
+<data key="na94">255</data>
+<data key="na62">19</data>
+<data key="na108">0.0</data>
+<data key="na93">0</data>
+<data key="na61">1</data>
+<data key="na107">0.0</data>
+<data key="na92">0</data>
+<data key="na60">0</data>
+<data key="na106">0.0</data>
+<data key="na91">1.0</data>
+<data key="na105">0.0</data>
+<data key="na90"> 0.0</data>
+<data key="na104">0.0</data>
+<data key="na103">plain</data>
+<data key="na102">12</data>
+<data key="na101">Arial</data>
+<data key="na100">#000000</data>
+</node>
+<node id="n28">
+<data key="na59">Pattern_circle_3_8</data>
+<data key="na58">22</data>
+<data key="na57">1</data>
+<data key="na89">0.0</data>
+<data key="na56">0</data>
+<data key="na88">2.0</data>
+<data key="na55">Pattern_circle_3_8</data>
+<data key="na87">255</data>
+<data key="na3">Pattern_circle_3_8</data>
+<data key="na54">21</data>
+<data key="na86">255</data>
+<data key="na2">15</data>
+<data key="na53">1</data>
+<data key="na85">255</data>
+<data key="na1">2</data>
+<data key="na84">255</data>
+<data key="na0">1</data>
+<data key="na52">0</data>
+<data key="na83">50.0</data>
+<data key="na82">25.0</data>
+<data key="na81">92.5</data>
+<data key="na80">35.0</data>
+<data key="na47">Pattern_circle_3_8</data>
+<data key="na46">16</data>
+<data key="na45">3</data>
+<data key="na44">2</data>
+<data key="na111">-1</data>
+<data key="na110">text</data>
+<data key="na99">c</data>
+<data key="na67">Pattern_circle_3_8</data>
+<data key="na98">center</data>
+<data key="na66">24</data>
+<data key="na97">org.graffiti.plugins.views.defaults.RectangleNodeShape</data>
+<data key="na65">2</data>
+<data key="na96">5.0</data>
+<data key="na64">1</data>
+<data key="na95">0</data>
+<data key="na63">Pattern_circle_3_8</data>
+<data key="na109">Laura</data>
+<data key="na94">255</data>
+<data key="na62">23</data>
+<data key="na108">0.0</data>
+<data key="na93">0</data>
+<data key="na61">3</data>
+<data key="na107">0.0</data>
+<data key="na92">0</data>
+<data key="na60">2</data>
+<data key="na106">0.0</data>
+<data key="na91">1.0</data>
+<data key="na105">0.0</data>
+<data key="na90"> 0.0</data>
+<data key="na104">0.0</data>
+<data key="na103">plain</data>
+<data key="na102">12</data>
+<data key="na101">Arial</data>
+<data key="na100">#000000</data>
+</node>
+<node id="n29">
+<data key="na59">Pattern_circle_3_8</data>
+<data key="na58">22</data>
+<data key="na57">2</data>
+<data key="na89">0.0</data>
+<data key="na56">1</data>
+<data key="na88">2.0</data>
+<data key="na55">Pattern_circle_3_8</data>
+<data key="na87">255</data>
+<data key="na3">Pattern_circle_3_8</data>
+<data key="na54">21</data>
+<data key="na86">255</data>
+<data key="na2">15</data>
+<data key="na53">3</data>
+<data key="na85">255</data>
+<data key="na1">3</data>
+<data key="na84">255</data>
+<data key="na0">2</data>
+<data key="na52">2</data>
+<data key="na83">50.0</data>
+<data key="na82">25.0</data>
+<data key="na81">22.5</data>
+<data key="na80">100.0</data>
+<data key="na47">Pattern_circle_3_8</data>
+<data key="na46">16</data>
+<data key="na45">2</data>
+<data key="na44">1</data>
+<data key="na111">-1</data>
+<data key="na110">text</data>
+<data key="na99">c</data>
+<data key="na67">Pattern_circle_3_8</data>
+<data key="na98">center</data>
+<data key="na66">24</data>
+<data key="na97">org.graffiti.plugins.views.defaults.RectangleNodeShape</data>
+<data key="na65">1</data>
+<data key="na96">5.0</data>
+<data key="na64">0</data>
+<data key="na95">0</data>
+<data key="na63">Pattern_circle_3_8</data>
+<data key="na109">Tess</data>
+<data key="na94">255</data>
+<data key="na62">23</data>
+<data key="na108">0.0</data>
+<data key="na93">0</data>
+<data key="na61">1</data>
+<data key="na107">0.0</data>
+<data key="na92">0</data>
+<data key="na60">0</data>
+<data key="na106">0.0</data>
+<data key="na91">1.0</data>
+<data key="na105">0.0</data>
+<data key="na90"> 0.0</data>
+<data key="na104">0.0</data>
+<data key="na103">plain</data>
+<data key="na102">12</data>
+<data key="na101">Arial</data>
+<data key="na100">#000000</data>
+</node>
+<edge id="e0" source="n21" target="n20">
+<data key="ea39">1</data>
+<data key="ea38">Pattern_circle_3_8</data>
+<data key="ea37">3</data>
+<data key="ea36">3</data>
+<data key="ea35">Pattern_circle_4_7</data>
+<data key="ea99">255</data>
+<data key="ea34">1</data>
+<data key="ea98">0</data>
+<data key="ea33">2</data>
+<data key="ea97">0</data>
+<data key="ea32">Pattern_circle_3_8</data>
+<data key="ea96">1.0</data>
+<data key="ea31">3</data>
+<data key="ea95"/>
+<data key="ea30">1</data>
+<data key="ea94"> 0.0</data>
+<data key="ea93">0.0</data>
+<data key="ea92">1.0</data>
+<data key="ea91">0</data>
+<data key="ea90">255</data>
+<data key="ea29">Pattern_circle_3_8</data>
+<data key="ea28">1</data>
+<data key="ea27">2</data>
+<data key="ea26">Pattern_circle_3_8</data>
+<data key="ea25">1</data>
+<data key="ea89">0</data>
+<data key="ea24">1</data>
+<data key="ea88">0</data>
+<data key="ea23">Pattern_circle_4_7</data>
+<data key="ea87"/>
+<data key="ea22">8</data>
+<data key="ea86"/>
+<data key="ea21">4</data>
+<data key="ea85"/>
+<data key="ea20">Pattern_circle_4_7</data>
+<data key="ea84">org.graffiti.plugins.views.defaults.StandardArrowShape</data>
+<data key="ea83">Pattern_circle_4_7</data>
+<data key="ea82">5</data>
+<data key="ea81">2</data>
+<data key="ea80">Pattern_circle_4_7</data>
+<data key="ea19">8</data>
+<data key="ea18">3</data>
+<data key="ea17">Pattern_circle_4_7</data>
+<data key="ea16">7</data>
+<data key="ea15">3</data>
+<data key="ea79">4</data>
+<data key="ea14">Pattern_circle_4_7</data>
+<data key="ea78">4</data>
+<data key="ea13">7</data>
+<data key="ea77">Pattern_circle_4_7</data>
+<data key="ea12">2</data>
+<data key="ea76">4</data>
+<data key="ea11">Pattern_circle_4_7</data>
+<data key="ea75">1</data>
+<data key="ea10">6</data>
+<data key="ea74">Pattern_circle_4_7</data>
+<data key="ea73">3</data>
+<data key="ea72">2</data>
+<data key="ea71">Pattern_circle_4_7</data>
+<data key="ea70">3</data>
+<data key="ea69">1</data>
+<data key="ea68">Pattern_circle_4_7</data>
+<data key="ea67">2</data>
+<data key="ea66">4</data>
+<data key="ea65">Pattern_circle_4_7</data>
+<data key="ea64">2</data>
+<data key="ea63">1</data>
+<data key="ea62">Pattern_circle_3_8</data>
+<data key="ea61">11</data>
+<data key="ea60">3</data>
+<data key="ea59">Pattern_circle_3_8</data>
+<data key="ea58">11</data>
+<data key="ea57">2</data>
+<data key="ea56">Pattern_circle_3_8</data>
+<data key="ea55">9</data>
+<data key="ea54">3</data>
+<data key="ea53">Pattern_circle_3_8</data>
+<data key="ea52">9</data>
+<data key="ea51">2</data>
+<data key="ea50">Pattern_circle_3_8</data>
+<data key="ea9">4</data>
+<data key="ea8">Pattern_circle_4_7</data>
+<data key="ea7">6</data>
+<data key="ea6">3</data>
+<data key="ea5">Pattern_circle_4_7</data>
+<data key="ea4">5</data>
+<data key="ea3">3</data>
+<data key="ea2">Pattern_circle_4_7</data>
+<data key="ea1">1</data>
+<data key="ea0">1</data>
+<data key="ea49">6</data>
+<data key="ea48">3</data>
+<data key="ea47">Pattern_circle_3_8</data>
+<data key="ea46">6</data>
+<data key="ea45">1</data>
+<data key="ea44">Pattern_circle_3_8</data>
+<data key="ea43">5</data>
+<data key="ea42">2</data>
+<data key="ea41">Pattern_circle_3_8</data>
+<data key="ea103">1.0</data>
+<data key="ea40">5</data>
+<data key="ea102">org.graffiti.plugins.views.defaults.StraightLineEdgeShape</data>
+<data key="ea101">5.0</data>
+<data key="ea100">0</data>
+</edge>
+<edge id="e1" source="n22" target="n21">
+<data key="ea93">0.0</data>
+<data key="ea92">1.0</data>
+<data key="ea91">0</data>
+<data key="ea90">255</data>
+<data key="ea103">1.0</data>
+<data key="ea102">org.graffiti.plugins.views.defaults.StraightLineEdgeShape</data>
+<data key="ea101">5.0</data>
+<data key="ea100">0</data>
+<data key="ea89">0</data>
+<data key="ea88">0</data>
+<data key="ea87"/>
+<data key="ea86"/>
+<data key="ea85"/>
+<data key="ea84">org.graffiti.plugins.views.defaults.StandardArrowShape</data>
+<data key="ea99">255</data>
+<data key="ea98">0</data>
+<data key="ea97">0</data>
+<data key="ea96">1.0</data>
+<data key="ea95"/>
+<data key="ea94"> 0.0</data>
+</edge>
+<edge id="e2" source="n25" target="n26">
+<data key="ea69">1</data>
+<data key="ea68">Pattern_circle_3_8</data>
+<data key="ea99">255</data>
+<data key="ea35">Pattern_circle_3_8</data>
+<data key="ea67">14</data>
+<data key="ea98">0</data>
+<data key="ea34">13</data>
+<data key="ea66">3</data>
+<data key="ea97">0</data>
+<data key="ea33">2</data>
+<data key="ea65">Pattern_circle_3_8</data>
+<data key="ea9">3</data>
+<data key="ea96">1.0</data>
+<data key="ea64">14</data>
+<data key="ea8">Pattern_circle_3_8</data>
+<data key="ea95"/>
+<data key="ea63">1</data>
+<data key="ea7">20</data>
+<data key="ea94"> 0.0</data>
+<data key="ea6">2</data>
+<data key="ea93">0.0</data>
+<data key="ea5">Pattern_circle_3_8</data>
+<data key="ea92">1.0</data>
+<data key="ea4">19</data>
+<data key="ea91">0</data>
+<data key="ea3">3</data>
+<data key="ea90">255</data>
+<data key="ea2">Pattern_circle_3_8</data>
+<data key="ea1">13</data>
+<data key="ea0">1</data>
+<data key="ea103">1.0</data>
+<data key="ea102">org.graffiti.plugins.views.defaults.StraightLineEdgeShape</data>
+<data key="ea101">5.0</data>
+<data key="ea100">0</data>
+<data key="ea89">0</data>
+<data key="ea88">0</data>
+<data key="ea87"/>
+<data key="ea86"/>
+<data key="ea85"/>
+<data key="ea84">org.graffiti.plugins.views.defaults.StandardArrowShape</data>
+<data key="ea83">Pattern_circle_3_8</data>
+<data key="ea82">19</data>
+<data key="ea81">2</data>
+<data key="ea80">Pattern_circle_3_8</data>
+<data key="ea79">18</data>
+<data key="ea78">3</data>
+<data key="ea77">Pattern_circle_3_8</data>
+<data key="ea76">18</data>
+<data key="ea11">Pattern_circle_3_8</data>
+<data key="ea75">1</data>
+<data key="ea10">20</data>
+<data key="ea74">Pattern_circle_3_8</data>
+<data key="ea73">17</data>
+<data key="ea72">2</data>
+<data key="ea71">Pattern_circle_3_8</data>
+<data key="ea70">17</data>
+</edge>
+<edge id="e3" source="n29" target="n28">
+<data key="ea69">1</data>
+<data key="ea68">Pattern_circle_3_8</data>
+<data key="ea99">255</data>
+<data key="ea35">Pattern_circle_3_8</data>
+<data key="ea67">16</data>
+<data key="ea98">0</data>
+<data key="ea34">15</data>
+<data key="ea66">3</data>
+<data key="ea97">0</data>
+<data key="ea33">3</data>
+<data key="ea65">Pattern_circle_3_8</data>
+<data key="ea9">2</data>
+<data key="ea96">1.0</data>
+<data key="ea64">16</data>
+<data key="ea8">Pattern_circle_3_8</data>
+<data key="ea95"/>
+<data key="ea63">2</data>
+<data key="ea7">24</data>
+<data key="ea94"> 0.0</data>
+<data key="ea6">1</data>
+<data key="ea93">0.0</data>
+<data key="ea5">Pattern_circle_3_8</data>
+<data key="ea92">1.0</data>
+<data key="ea4">23</data>
+<data key="ea91">0</data>
+<data key="ea3">3</data>
+<data key="ea90">255</data>
+<data key="ea2">Pattern_circle_3_8</data>
+<data key="ea1">15</data>
+<data key="ea0">2</data>
+<data key="ea103">1.0</data>
+<data key="ea102">org.graffiti.plugins.views.defaults.StraightLineEdgeShape</data>
+<data key="ea101">5.0</data>
+<data key="ea100">0</data>
+<data key="ea89">0</data>
+<data key="ea88">0</data>
+<data key="ea87"/>
+<data key="ea86"/>
+<data key="ea85"/>
+<data key="ea84">org.graffiti.plugins.views.defaults.StandardArrowShape</data>
+<data key="ea83">Pattern_circle_3_8</data>
+<data key="ea82">23</data>
+<data key="ea81">1</data>
+<data key="ea80">Pattern_circle_3_8</data>
+<data key="ea79">22</data>
+<data key="ea78">2</data>
+<data key="ea77">Pattern_circle_3_8</data>
+<data key="ea76">22</data>
+<data key="ea11">Pattern_circle_3_8</data>
+<data key="ea75">1</data>
+<data key="ea10">24</data>
+<data key="ea74">Pattern_circle_3_8</data>
+<data key="ea73">21</data>
+<data key="ea72">3</data>
+<data key="ea71">Pattern_circle_3_8</data>
+<data key="ea70">21</data>
+</edge>
+<edge id="e4" source="n20" target="n24">
+<data key="ea39">1</data>
+<data key="ea38">Pattern_circle_3_8</data>
+<data key="ea37">10</data>
+<data key="ea36">2</data>
+<data key="ea35">Pattern_circle_3_8</data>
+<data key="ea99">255</data>
+<data key="ea34">1</data>
+<data key="ea98">0</data>
+<data key="ea33">3</data>
+<data key="ea97">0</data>
+<data key="ea32">Pattern_circle_3_8</data>
+<data key="ea96">1.0</data>
+<data key="ea31">10</data>
+<data key="ea95"/>
+<data key="ea30">1</data>
+<data key="ea94"> 0.0</data>
+<data key="ea93">0.0</data>
+<data key="ea92">1.0</data>
+<data key="ea91">0</data>
+<data key="ea90">255</data>
+<data key="ea29">Pattern_circle_3_8</data>
+<data key="ea28">9</data>
+<data key="ea27">2</data>
+<data key="ea26">Pattern_circle_3_8</data>
+<data key="ea25">9</data>
+<data key="ea89">0</data>
+<data key="ea24">1</data>
+<data key="ea88">0</data>
+<data key="ea23">Pattern_circle_3_8</data>
+<data key="ea87"/>
+<data key="ea22">8</data>
+<data key="ea86"/>
+<data key="ea21">3</data>
+<data key="ea85"/>
+<data key="ea20">Pattern_circle_3_8</data>
+<data key="ea84">org.graffiti.plugins.views.defaults.StandardArrowShape</data>
+<data key="ea83">Pattern_circle_3_8</data>
+<data key="ea82">5</data>
+<data key="ea81">2</data>
+<data key="ea80">Pattern_circle_3_8</data>
+<data key="ea19">8</data>
+<data key="ea18">2</data>
+<data key="ea17">Pattern_circle_3_8</data>
+<data key="ea16">7</data>
+<data key="ea15">3</data>
+<data key="ea14">Pattern_circle_3_8</data>
+<data key="ea79">4</data>
+<data key="ea13">7</data>
+<data key="ea78">2</data>
+<data key="ea12">2</data>
+<data key="ea77">Pattern_circle_3_8</data>
+<data key="ea11">Pattern_circle_3_8</data>
+<data key="ea76">4</data>
+<data key="ea10">6</data>
+<data key="ea75">1</data>
+<data key="ea74">Pattern_circle_3_8</data>
+<data key="ea73">3</data>
+<data key="ea72">2</data>
+<data key="ea71">Pattern_circle_3_8</data>
+<data key="ea70">3</data>
+<data key="ea69">1</data>
+<data key="ea68">Pattern_circle_3_8</data>
+<data key="ea67">2</data>
+<data key="ea66">3</data>
+<data key="ea65">Pattern_circle_3_8</data>
+<data key="ea64">2</data>
+<data key="ea63">1</data>
+<data key="ea50">Pattern_circle_3_8</data>
+<data key="ea9">3</data>
+<data key="ea8">Pattern_circle_3_8</data>
+<data key="ea7">6</data>
+<data key="ea6">2</data>
+<data key="ea5">Pattern_circle_3_8</data>
+<data key="ea4">5</data>
+<data key="ea3">3</data>
+<data key="ea2">Pattern_circle_3_8</data>
+<data key="ea1">1</data>
+<data key="ea0">1</data>
+<data key="ea49">12</data>
+<data key="ea48">3</data>
+<data key="ea47">Pattern_circle_3_8</data>
+<data key="ea46">12</data>
+<data key="ea45">1</data>
+<data key="ea44">Pattern_circle_3_8</data>
+<data key="ea43">11</data>
+<data key="ea42">3</data>
+<data key="ea41">Pattern_circle_3_8</data>
+<data key="ea103">1.0</data>
+<data key="ea40">11</data>
+<data key="ea102">org.graffiti.plugins.views.defaults.StraightLineEdgeShape</data>
+<data key="ea101">5.0</data>
+<data key="ea100">0</data>
+</edge>
+<edge id="e5" source="n23" target="n20">
+<data key="ea39">1</data>
+<data key="ea38">Pattern_circle_3_8</data>
+<data key="ea37">4</data>
+<data key="ea36">3</data>
+<data key="ea35">Pattern_circle_4_7</data>
+<data key="ea99">255</data>
+<data key="ea34">1</data>
+<data key="ea98">0</data>
+<data key="ea33">4</data>
+<data key="ea97">0</data>
+<data key="ea32">Pattern_circle_3_8</data>
+<data key="ea96">1.0</data>
+<data key="ea31">4</data>
+<data key="ea95"/>
+<data key="ea30">1</data>
+<data key="ea94"> 0.0</data>
+<data key="ea93">0.0</data>
+<data key="ea92">1.0</data>
+<data key="ea91">0</data>
+<data key="ea90">255</data>
+<data key="ea29">Pattern_circle_3_8</data>
+<data key="ea28">2</data>
+<data key="ea27">2</data>
+<data key="ea26">Pattern_circle_3_8</data>
+<data key="ea25">2</data>
+<data key="ea89">0</data>
+<data key="ea24">1</data>
+<data key="ea88">0</data>
+<data key="ea23">Pattern_circle_4_7</data>
+<data key="ea87"/>
+<data key="ea22">8</data>
+<data key="ea86"/>
+<data key="ea21">3</data>
+<data key="ea85"/>
+<data key="ea20">Pattern_circle_4_7</data>
+<data key="ea84">org.graffiti.plugins.views.defaults.StandardArrowShape</data>
+<data key="ea83">Pattern_circle_4_7</data>
+<data key="ea82">5</data>
+<data key="ea81">1</data>
+<data key="ea80">Pattern_circle_4_7</data>
+<data key="ea19">8</data>
+<data key="ea18">2</data>
+<data key="ea17">Pattern_circle_4_7</data>
+<data key="ea16">7</data>
+<data key="ea15">4</data>
+<data key="ea79">4</data>
+<data key="ea14">Pattern_circle_4_7</data>
+<data key="ea78">4</data>
+<data key="ea13">7</data>
+<data key="ea77">Pattern_circle_4_7</data>
+<data key="ea12">3</data>
+<data key="ea76">4</data>
+<data key="ea11">Pattern_circle_4_7</data>
+<data key="ea75">3</data>
+<data key="ea10">6</data>
+<data key="ea74">Pattern_circle_4_7</data>
+<data key="ea73">3</data>
+<data key="ea72">3</data>
+<data key="ea71">Pattern_circle_4_7</data>
+<data key="ea70">3</data>
+<data key="ea69">2</data>
+<data key="ea68">Pattern_circle_4_7</data>
+<data key="ea67">2</data>
+<data key="ea66">2</data>
+<data key="ea65">Pattern_circle_4_7</data>
+<data key="ea64">2</data>
+<data key="ea63">1</data>
+<data key="ea62">Pattern_circle_3_8</data>
+<data key="ea61">12</data>
+<data key="ea60">3</data>
+<data key="ea59">Pattern_circle_3_8</data>
+<data key="ea58">12</data>
+<data key="ea57">2</data>
+<data key="ea56">Pattern_circle_3_8</data>
+<data key="ea55">10</data>
+<data key="ea54">3</data>
+<data key="ea53">Pattern_circle_3_8</data>
+<data key="ea52">10</data>
+<data key="ea51">2</data>
+<data key="ea50">Pattern_circle_3_8</data>
+<data key="ea9">4</data>
+<data key="ea8">Pattern_circle_4_7</data>
+<data key="ea7">6</data>
+<data key="ea6">1</data>
+<data key="ea5">Pattern_circle_4_7</data>
+<data key="ea4">5</data>
+<data key="ea3">2</data>
+<data key="ea2">Pattern_circle_4_7</data>
+<data key="ea1">1</data>
+<data key="ea0">1</data>
+<data key="ea49">8</data>
+<data key="ea48">3</data>
+<data key="ea47">Pattern_circle_3_8</data>
+<data key="ea46">8</data>
+<data key="ea45">1</data>
+<data key="ea44">Pattern_circle_3_8</data>
+<data key="ea43">7</data>
+<data key="ea42">2</data>
+<data key="ea41">Pattern_circle_3_8</data>
+<data key="ea103">1.0</data>
+<data key="ea40">7</data>
+<data key="ea102">org.graffiti.plugins.views.defaults.StraightLineEdgeShape</data>
+<data key="ea101">5.0</data>
+<data key="ea100">0</data>
+</edge>
+<edge id="e6" source="n29" target="n25">
+<data key="ea69">2</data>
+<data key="ea68">Pattern_circle_3_8</data>
+<data key="ea99">255</data>
+<data key="ea35">Pattern_circle_3_8</data>
+<data key="ea67">16</data>
+<data key="ea98">0</data>
+<data key="ea34">15</data>
+<data key="ea66">2</data>
+<data key="ea97">0</data>
+<data key="ea33">3</data>
+<data key="ea65">Pattern_circle_3_8</data>
+<data key="ea9">3</data>
+<data key="ea96">1.0</data>
+<data key="ea64">16</data>
+<data key="ea8">Pattern_circle_3_8</data>
+<data key="ea95"/>
+<data key="ea63">1</data>
+<data key="ea7">24</data>
+<data key="ea94"> 0.0</data>
+<data key="ea6">1</data>
+<data key="ea93">0.0</data>
+<data key="ea5">Pattern_circle_3_8</data>
+<data key="ea92">1.0</data>
+<data key="ea4">23</data>
+<data key="ea91">0</data>
+<data key="ea3">2</data>
+<data key="ea90">255</data>
+<data key="ea2">Pattern_circle_3_8</data>
+<data key="ea1">15</data>
+<data key="ea0">1</data>
+<data key="ea103">1.0</data>
+<data key="ea102">org.graffiti.plugins.views.defaults.StraightLineEdgeShape</data>
+<data key="ea101">5.0</data>
+<data key="ea100">0</data>
+<data key="ea89">0</data>
+<data key="ea88">0</data>
+<data key="ea87"/>
+<data key="ea86"/>
+<data key="ea85"/>
+<data key="ea84">org.graffiti.plugins.views.defaults.StandardArrowShape</data>
+<data key="ea83">Pattern_circle_3_8</data>
+<data key="ea82">23</data>
+<data key="ea81">1</data>
+<data key="ea80">Pattern_circle_3_8</data>
+<data key="ea79">22</data>
+<data key="ea78">3</data>
+<data key="ea77">Pattern_circle_3_8</data>
+<data key="ea76">22</data>
+<data key="ea11">Pattern_circle_3_8</data>
+<data key="ea75">2</data>
+<data key="ea10">24</data>
+<data key="ea74">Pattern_circle_3_8</data>
+<data key="ea73">21</data>
+<data key="ea72">3</data>
+<data key="ea71">Pattern_circle_3_8</data>
+<data key="ea70">21</data>
+</edge>
+<edge id="e7" source="n29" target="n24">
+<data key="ea93">0.0</data>
+<data key="ea92">1.0</data>
+<data key="ea91">0</data>
+<data key="ea90">255</data>
+<data key="ea103">1.0</data>
+<data key="ea102">org.graffiti.plugins.views.defaults.StraightLineEdgeShape</data>
+<data key="ea101">5.0</data>
+<data key="ea100">0</data>
+<data key="ea89">0</data>
+<data key="ea88">0</data>
+<data key="ea87"/>
+<data key="ea86"/>
+<data key="ea85"/>
+<data key="ea84">org.graffiti.plugins.views.defaults.StandardArrowShape</data>
+<data key="ea99">255</data>
+<data key="ea98">0</data>
+<data key="ea97">0</data>
+<data key="ea96">1.0</data>
+<data key="ea95"/>
+<data key="ea94"> 0.0</data>
+</edge>
+<edge id="e8" source="n25" target="n27">
+<data key="ea69">2</data>
+<data key="ea68">Pattern_circle_3_8</data>
+<data key="ea99">255</data>
+<data key="ea35">Pattern_circle_3_8</data>
+<data key="ea67">14</data>
+<data key="ea98">0</data>
+<data key="ea34">13</data>
+<data key="ea66">2</data>
+<data key="ea97">0</data>
+<data key="ea33">3</data>
+<data key="ea65">Pattern_circle_3_8</data>
+<data key="ea9">3</data>
+<data key="ea96">1.0</data>
+<data key="ea64">14</data>
+<data key="ea8">Pattern_circle_3_8</data>
+<data key="ea95"/>
+<data key="ea63">1</data>
+<data key="ea7">20</data>
+<data key="ea94"> 0.0</data>
+<data key="ea6">1</data>
+<data key="ea93">0.0</data>
+<data key="ea5">Pattern_circle_3_8</data>
+<data key="ea92">1.0</data>
+<data key="ea4">19</data>
+<data key="ea91">0</data>
+<data key="ea3">2</data>
+<data key="ea90">255</data>
+<data key="ea2">Pattern_circle_3_8</data>
+<data key="ea1">13</data>
+<data key="ea0">1</data>
+<data key="ea103">1.0</data>
+<data key="ea102">org.graffiti.plugins.views.defaults.StraightLineEdgeShape</data>
+<data key="ea101">5.0</data>
+<data key="ea100">0</data>
+<data key="ea89">0</data>
+<data key="ea88">0</data>
+<data key="ea87"/>
+<data key="ea86"/>
+<data key="ea85"/>
+<data key="ea84">org.graffiti.plugins.views.defaults.StandardArrowShape</data>
+<data key="ea83">Pattern_circle_3_8</data>
+<data key="ea82">19</data>
+<data key="ea81">1</data>
+<data key="ea80">Pattern_circle_3_8</data>
+<data key="ea79">18</data>
+<data key="ea78">3</data>
+<data key="ea77">Pattern_circle_3_8</data>
+<data key="ea76">18</data>
+<data key="ea11">Pattern_circle_3_8</data>
+<data key="ea75">2</data>
+<data key="ea10">20</data>
+<data key="ea74">Pattern_circle_3_8</data>
+<data key="ea73">17</data>
+<data key="ea72">3</data>
+<data key="ea71">Pattern_circle_3_8</data>
+<data key="ea70">17</data>
+</edge>
+<edge id="e9" source="n23" target="n24">
+<data key="ea39">1</data>
+<data key="ea38">Pattern_circle_3_8</data>
+<data key="ea37">4</data>
+<data key="ea36">3</data>
+<data key="ea35">Pattern_circle_4_7</data>
+<data key="ea99">255</data>
+<data key="ea34">1</data>
+<data key="ea98">0</data>
+<data key="ea33">4</data>
+<data key="ea97">0</data>
+<data key="ea32">Pattern_circle_3_8</data>
+<data key="ea96">1.0</data>
+<data key="ea31">4</data>
+<data key="ea95"/>
+<data key="ea30">2</data>
+<data key="ea94"> 0.0</data>
+<data key="ea93">0.0</data>
+<data key="ea92">1.0</data>
+<data key="ea91">0</data>
+<data key="ea90">255</data>
+<data key="ea29">Pattern_circle_3_8</data>
+<data key="ea28">2</data>
+<data key="ea27">3</data>
+<data key="ea26">Pattern_circle_3_8</data>
+<data key="ea25">2</data>
+<data key="ea89">0</data>
+<data key="ea24">2</data>
+<data key="ea88">0</data>
+<data key="ea23">Pattern_circle_4_7</data>
+<data key="ea87"/>
+<data key="ea22">8</data>
+<data key="ea86"/>
+<data key="ea21">2</data>
+<data key="ea85"/>
+<data key="ea20">Pattern_circle_4_7</data>
+<data key="ea84">org.graffiti.plugins.views.defaults.StandardArrowShape</data>
+<data key="ea83">Pattern_circle_4_7</data>
+<data key="ea82">5</data>
+<data key="ea81">1</data>
+<data key="ea80">Pattern_circle_4_7</data>
+<data key="ea19">8</data>
+<data key="ea18">1</data>
+<data key="ea17">Pattern_circle_4_7</data>
+<data key="ea16">7</data>
+<data key="ea15">4</data>
+<data key="ea79">4</data>
+<data key="ea14">Pattern_circle_4_7</data>
+<data key="ea78">3</data>
+<data key="ea13">7</data>
+<data key="ea77">Pattern_circle_4_7</data>
+<data key="ea12">1</data>
+<data key="ea76">4</data>
+<data key="ea11">Pattern_circle_4_7</data>
+<data key="ea75">2</data>
+<data key="ea10">6</data>
+<data key="ea74">Pattern_circle_4_7</data>
+<data key="ea73">3</data>
+<data key="ea72">4</data>
+<data key="ea71">Pattern_circle_4_7</data>
+<data key="ea70">3</data>
+<data key="ea69">3</data>
+<data key="ea68">Pattern_circle_4_7</data>
+<data key="ea67">2</data>
+<data key="ea66">3</data>
+<data key="ea65">Pattern_circle_4_7</data>
+<data key="ea64">2</data>
+<data key="ea63">2</data>
+<data key="ea62">Pattern_circle_3_8</data>
+<data key="ea61">12</data>
+<data key="ea60">2</data>
+<data key="ea59">Pattern_circle_3_8</data>
+<data key="ea58">12</data>
+<data key="ea57">1</data>
+<data key="ea56">Pattern_circle_3_8</data>
+<data key="ea55">10</data>
+<data key="ea54">3</data>
+<data key="ea53">Pattern_circle_3_8</data>
+<data key="ea52">10</data>
+<data key="ea51">1</data>
+<data key="ea50">Pattern_circle_3_8</data>
+<data key="ea9">2</data>
+<data key="ea8">Pattern_circle_4_7</data>
+<data key="ea7">6</data>
+<data key="ea6">1</data>
+<data key="ea5">Pattern_circle_4_7</data>
+<data key="ea4">5</data>
+<data key="ea3">4</data>
+<data key="ea2">Pattern_circle_4_7</data>
+<data key="ea1">1</data>
+<data key="ea0">3</data>
+<data key="ea49">8</data>
+<data key="ea48">2</data>
+<data key="ea47">Pattern_circle_3_8</data>
+<data key="ea46">8</data>
+<data key="ea45">1</data>
+<data key="ea44">Pattern_circle_3_8</data>
+<data key="ea43">7</data>
+<data key="ea42">3</data>
+<data key="ea41">Pattern_circle_3_8</data>
+<data key="ea103">1.0</data>
+<data key="ea40">7</data>
+<data key="ea102">org.graffiti.plugins.views.defaults.StraightLineEdgeShape</data>
+<data key="ea101">5.0</data>
+<data key="ea100">0</data>
+</edge>
+<edge id="e10" source="n21" target="n24">
+<data key="ea39">1</data>
+<data key="ea38">Pattern_circle_3_8</data>
+<data key="ea37">3</data>
+<data key="ea36">3</data>
+<data key="ea35">Pattern_circle_4_7</data>
+<data key="ea99">255</data>
+<data key="ea34">1</data>
+<data key="ea98">0</data>
+<data key="ea33">3</data>
+<data key="ea97">0</data>
+<data key="ea32">Pattern_circle_3_8</data>
+<data key="ea96">1.0</data>
+<data key="ea31">3</data>
+<data key="ea95"/>
+<data key="ea30">2</data>
+<data key="ea94"> 0.0</data>
+<data key="ea93">0.0</data>
+<data key="ea92">1.0</data>
+<data key="ea91">0</data>
+<data key="ea90">255</data>
+<data key="ea29">Pattern_circle_3_8</data>
+<data key="ea28">1</data>
+<data key="ea27">3</data>
+<data key="ea26">Pattern_circle_3_8</data>
+<data key="ea25">1</data>
+<data key="ea89">0</data>
+<data key="ea24">2</data>
+<data key="ea88">0</data>
+<data key="ea23">Pattern_circle_4_7</data>
+<data key="ea87"/>
+<data key="ea22">8</data>
+<data key="ea86"/>
+<data key="ea21">4</data>
+<data key="ea85"/>
+<data key="ea20">Pattern_circle_4_7</data>
+<data key="ea84">org.graffiti.plugins.views.defaults.StandardArrowShape</data>
+<data key="ea83">Pattern_circle_4_7</data>
+<data key="ea82">5</data>
+<data key="ea81">3</data>
+<data key="ea80">Pattern_circle_4_7</data>
+<data key="ea19">8</data>
+<data key="ea18">1</data>
+<data key="ea17">Pattern_circle_4_7</data>
+<data key="ea16">7</data>
+<data key="ea15">2</data>
+<data key="ea79">4</data>
+<data key="ea14">Pattern_circle_4_7</data>
+<data key="ea78">2</data>
+<data key="ea13">7</data>
+<data key="ea77">Pattern_circle_4_7</data>
+<data key="ea12">1</data>
+<data key="ea76">4</data>
+<data key="ea11">Pattern_circle_4_7</data>
+<data key="ea75">1</data>
+<data key="ea10">6</data>
+<data key="ea74">Pattern_circle_4_7</data>
+<data key="ea73">3</data>
+<data key="ea72">4</data>
+<data key="ea71">Pattern_circle_4_7</data>
+<data key="ea70">3</data>
+<data key="ea69">1</data>
+<data key="ea68">Pattern_circle_4_7</data>
+<data key="ea67">2</data>
+<data key="ea66">4</data>
+<data key="ea65">Pattern_circle_4_7</data>
+<data key="ea64">2</data>
+<data key="ea63">3</data>
+<data key="ea62">Pattern_circle_3_8</data>
+<data key="ea61">11</data>
+<data key="ea60">2</data>
+<data key="ea59">Pattern_circle_3_8</data>
+<data key="ea58">11</data>
+<data key="ea57">1</data>
+<data key="ea56">Pattern_circle_3_8</data>
+<data key="ea55">9</data>
+<data key="ea54">3</data>
+<data key="ea53">Pattern_circle_3_8</data>
+<data key="ea52">9</data>
+<data key="ea51">1</data>
+<data key="ea50">Pattern_circle_3_8</data>
+<data key="ea9">3</data>
+<data key="ea8">Pattern_circle_4_7</data>
+<data key="ea7">6</data>
+<data key="ea6">2</data>
+<data key="ea5">Pattern_circle_4_7</data>
+<data key="ea4">5</data>
+<data key="ea3">4</data>
+<data key="ea2">Pattern_circle_4_7</data>
+<data key="ea1">1</data>
+<data key="ea0">2</data>
+<data key="ea49">6</data>
+<data key="ea48">2</data>
+<data key="ea47">Pattern_circle_3_8</data>
+<data key="ea46">6</data>
+<data key="ea45">1</data>
+<data key="ea44">Pattern_circle_3_8</data>
+<data key="ea43">5</data>
+<data key="ea42">3</data>
+<data key="ea41">Pattern_circle_3_8</data>
+<data key="ea103">1.0</data>
+<data key="ea40">5</data>
+<data key="ea102">org.graffiti.plugins.views.defaults.StraightLineEdgeShape</data>
+<data key="ea101">5.0</data>
+<data key="ea100">0</data>
+</edge>
+<edge id="e11" source="n25" target="n28">
+<data key="ea69">1</data>
+<data key="ea68">Pattern_circle_3_8</data>
+<data key="ea99">255</data>
+<data key="ea35">Pattern_circle_3_8</data>
+<data key="ea67">16</data>
+<data key="ea98">0</data>
+<data key="ea34">15</data>
+<data key="ea66">3</data>
+<data key="ea97">0</data>
+<data key="ea33">2</data>
+<data key="ea65">Pattern_circle_3_8</data>
+<data key="ea9">3</data>
+<data key="ea96">1.0</data>
+<data key="ea64">16</data>
+<data key="ea8">Pattern_circle_3_8</data>
+<data key="ea95"/>
+<data key="ea63">1</data>
+<data key="ea7">24</data>
+<data key="ea94"> 0.0</data>
+<data key="ea6">2</data>
+<data key="ea93">0.0</data>
+<data key="ea5">Pattern_circle_3_8</data>
+<data key="ea92">1.0</data>
+<data key="ea4">23</data>
+<data key="ea91">0</data>
+<data key="ea3">3</data>
+<data key="ea90">255</data>
+<data key="ea2">Pattern_circle_3_8</data>
+<data key="ea1">15</data>
+<data key="ea0">1</data>
+<data key="ea103">1.0</data>
+<data key="ea102">org.graffiti.plugins.views.defaults.StraightLineEdgeShape</data>
+<data key="ea101">5.0</data>
+<data key="ea100">0</data>
+<data key="ea89">0</data>
+<data key="ea88">0</data>
+<data key="ea87"/>
+<data key="ea86"/>
+<data key="ea85"/>
+<data key="ea84">org.graffiti.plugins.views.defaults.StandardArrowShape</data>
+<data key="ea83">Pattern_circle_3_8</data>
+<data key="ea82">23</data>
+<data key="ea81">2</data>
+<data key="ea80">Pattern_circle_3_8</data>
+<data key="ea79">22</data>
+<data key="ea78">3</data>
+<data key="ea77">Pattern_circle_3_8</data>
+<data key="ea76">22</data>
+<data key="ea11">Pattern_circle_3_8</data>
+<data key="ea75">1</data>
+<data key="ea10">24</data>
+<data key="ea74">Pattern_circle_3_8</data>
+<data key="ea73">21</data>
+<data key="ea72">2</data>
+<data key="ea71">Pattern_circle_3_8</data>
+<data key="ea70">21</data>
+</edge>
+<edge id="e12" source="n26" target="n27">
+<data key="ea69">1</data>
+<data key="ea68">Pattern_circle_3_8</data>
+<data key="ea99">255</data>
+<data key="ea35">Pattern_circle_3_8</data>
+<data key="ea67">14</data>
+<data key="ea98">0</data>
+<data key="ea34">13</data>
+<data key="ea66">3</data>
+<data key="ea97">0</data>
+<data key="ea33">3</data>
+<data key="ea65">Pattern_circle_3_8</data>
+<data key="ea9">2</data>
+<data key="ea96">1.0</data>
+<data key="ea64">14</data>
+<data key="ea8">Pattern_circle_3_8</data>
+<data key="ea95"/>
+<data key="ea63">2</data>
+<data key="ea7">20</data>
+<data key="ea94"> 0.0</data>
+<data key="ea6">1</data>
+<data key="ea93">0.0</data>
+<data key="ea5">Pattern_circle_3_8</data>
+<data key="ea92">1.0</data>
+<data key="ea4">19</data>
+<data key="ea91">0</data>
+<data key="ea3">3</data>
+<data key="ea90">255</data>
+<data key="ea2">Pattern_circle_3_8</data>
+<data key="ea1">13</data>
+<data key="ea0">2</data>
+<data key="ea103">1.0</data>
+<data key="ea102">org.graffiti.plugins.views.defaults.StraightLineEdgeShape</data>
+<data key="ea101">5.0</data>
+<data key="ea100">0</data>
+<data key="ea89">0</data>
+<data key="ea88">0</data>
+<data key="ea87"/>
+<data key="ea86"/>
+<data key="ea85"/>
+<data key="ea84">org.graffiti.plugins.views.defaults.StandardArrowShape</data>
+<data key="ea83">Pattern_circle_3_8</data>
+<data key="ea82">19</data>
+<data key="ea81">1</data>
+<data key="ea80">Pattern_circle_3_8</data>
+<data key="ea79">18</data>
+<data key="ea78">2</data>
+<data key="ea77">Pattern_circle_3_8</data>
+<data key="ea76">18</data>
+<data key="ea11">Pattern_circle_3_8</data>
+<data key="ea75">1</data>
+<data key="ea10">20</data>
+<data key="ea74">Pattern_circle_3_8</data>
+<data key="ea73">17</data>
+<data key="ea72">3</data>
+<data key="ea71">Pattern_circle_3_8</data>
+<data key="ea70">17</data>
+</edge>
+</graph>
+</graphml>

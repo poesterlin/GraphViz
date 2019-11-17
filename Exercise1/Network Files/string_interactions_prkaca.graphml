@@ -1,0 +1,36 @@
+<graphml>
+<key attr.name="name" attr.type="string" for="node" id="name"/>
+<graph edgedefault="directed" id=""> 
+    <node id="18">
+        <data key="name">Gpr161</data>
+    </node> 
+    <node id="17">
+        <data key="name">Pde4b</data>
+    </node> 
+    <node id="16">
+        <data key="name">Akap5</data>
+    </node> 
+    <node id="15">
+        <data key="name">Prkar1a</data>
+    </node> 
+    <node id="14">
+        <data key="name">Prkar2b</data>
+    </node> 
+    <node id="13">
+        <data key="name">Prkar2a</data>
+    </node> 
+    <node id="12">
+        <data key="name">Pkia</data>
+    </node> 
+    <node id="11">
+        <data key="name">Prkar1b</data>
+    </node> 
+    <node id="10">
+        <data key="name">Adcy8</data>
+    </node> 
+    <node id="9">
+        <data key="name">Prkaca</data>
+    </node> 
+    <node id="8">
+        <data key="name">Prkacb</data>
+    </node><edge source="8" target="17"/><edge source="8" target="12"/><edge source="13" target="15"/><edge source="14" target="17"/><edge source="9" target="15"/><edge source="11" target="17"/><edge source="9" target="17"/><edge source="13" target="14"/><edge source="10" target="16"/><edge source="8" target="13"/><edge source="11" target="14"/><edge source="9" target="10"/><edge source="11" target="15"/><edge source="9" target="14"/><edge source="8" target="15"/><edge source="8" target="18"/><edge source="11" target="18"/><edge source="14" target="16"/><edge source="15" target="18"/><edge source="11" target="13"/><edge source="10" target="14"/><edge source="8" target="14"/><edge source="13" target="18"/><edge source="11" target="16"/><edge source="15" target="17"/><edge source="9" target="12"/><edge source="10" target="13"/><edge source="10" target="15"/><edge source="9" target="13"/><edge source="9" target="18"/><edge source="8" target="16"/><edge source="13" target="17"/><edge source="9" target="11"/><edge source="8" target="11"/><edge source="9" target="16"/><edge source="14" target="15"/><edge source="8" target="9"/><edge source="10" target="11"/><edge source="8" target="10"/><edge source="13" target="16"/><edge source="10" target="17"/><edge source="14" target="18"/><edge source="15" target="16"/></graph></graphml>
