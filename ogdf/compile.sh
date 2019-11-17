@@ -3,7 +3,7 @@
 # exit on error
 set -e
 
-path="./lib"
+path="."
 
 echo --- cmake
 cmake -DOGDF_WARNING_ERRORS=OFF $path
