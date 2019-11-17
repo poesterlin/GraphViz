@@ -32,3 +32,9 @@ ogdf/CMakeDoxyfile.in
 ogdf/Makefile
 
 ogdf/lib/include/
+
+ogdf/output_binary.bin
+
+ogdf/libCOIN.a
+
+ogdf/libOGDF.a
