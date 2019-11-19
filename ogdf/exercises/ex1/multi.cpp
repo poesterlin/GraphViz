@@ -158,6 +158,6 @@ void layoutMulti(string file)
     // After the computation the MultilevelGraph is exported to the
     // GraphAttributes and written to disk.
     mlg.exportAttributes(ga);
-    GraphIO::write(ga, string("./exercises/ex1/output/").append(file.substr(0, file.length() - 4).append("-Hierarchical.svg")), GraphIO::drawSVG);
-    std::cout << "Hierarchical Layout of " << file << " done" << std::endl;
+    GraphIO::write(ga, string("./exercises/ex1/output/").append(file.substr(0, file.length() - 4).append("-Multi.svg")), GraphIO::drawSVG);
+    std::cout << "Multi Layout of " << file << " done" << std::endl;
 }
