@@ -1,5 +1,5 @@
 #include "fmmm.h"
-#include "hir.h"
+#include "multi.h"
 #include "ort.h"
 
 using namespace ogdf;
@@ -10,8 +10,8 @@ int main()
 	string file1 = "crack.gml";
 	string file2 = "Protein_core_2.gml";
 
-	// start time
-	auto t1 = std::chrono::high_resolution_clock::now();
+	double time = 0;
+	usedTime(time);
 
 	/*
 	**  force directed layout
@@ -21,45 +21,37 @@ int main()
 	layoutForceDir(file1);
 	layoutForceDir(file2);
 
-	// stop time
-	auto t2 = std::chrono::high_resolution_clock::now();
-	std::chrono::duration<double> diff = t2 - t1;
+	usedTime(time);
 
-	std::cout << "Force directed: " << diff.count() << "s" << std::endl
+	std::cout << "Force directed: " << time << "s" << std::endl
 			  << std::endl;
 
-	// start time
-	t1 = std::chrono::high_resolution_clock::now();
+	usedTime(time);
 
 	/*
 	** Hierarchical layout
 	*/
-	layoutHierarchical(file);
-	// layoutHierarchical(file1); // takes too long
-	layoutHierarchical(file2);
+	layoutMulti(file);
+	layoutMulti(file1);
+	layoutMulti(file2);
 
-	// stop time
-	t2 = std::chrono::high_resolution_clock::now();
-	diff = t2 - t1;
+	usedTime(time);
 
-	std::cout << "Hierarchical: " << diff.count() << "s" << std::endl
+	std::cout << "Hierarchical: " << time << "s" << std::endl
 			  << std::endl;
 
-	// start time
-	t1 = std::chrono::high_resolution_clock::now();
+	usedTime(time);
 
 	/*
 	** Orthogonal layout
 	*/
 	layoutOrthogonal(file);
-	// layoutOrthogonal(file1); // takes to long
-	// layoutOrthogonal(file2); // creates segmentation fault
+	layoutOrthogonal(file1); // takes to long
+	layoutOrthogonal(file2); // creates segmentation fault
 
-	// stop time
-	t2 = std::chrono::high_resolution_clock::now();
-	diff = t2 - t1;
+	usedTime(time);
 
-	std::cout << "Orthogonal: " << diff.count() << "s" << std::endl
+	std::cout << "Orthogonal: " << time << "s" << std::endl
 			  << std::endl;
 
 	return 0;
