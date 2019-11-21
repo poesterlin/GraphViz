@@ -37,36 +37,6 @@ static InitialPlacer *getBarycenterPlacer()
     return placer;
 }
 
-static void configureFastLayout(ScalingLayout *sl, MultilevelBuilder *&merger, InitialPlacer *&placer)
-{
-    // The SolarMerger is used for the coarsening phase.
-    merger = new SolarMerger(false, false);
-    // The SolarPlacer is used for the placement.
-    placer = new SolarPlacer();
-
-    // Postprocessing is applied at each level after the single level layout.
-    // It is turned off in this example.
-    sl->setExtraScalingSteps(0);
-    // In this example it is used to scale with fixed factor 2 relative to the graph drawing.
-    sl->setScalingType(ScalingLayout::ScalingType::RelativeToDrawing);
-    sl->setScaling(2.0, 2.0);
-}
-
-static void configureNiceLayout(ScalingLayout *sl, MultilevelBuilder *&merger, InitialPlacer *&placer)
-{
-    // The EdgeCoverMerger is used for the coarsening phase.
-    merger = getDoubleFactoredZeroAdjustedMerger<EdgeCoverMerger>();
-    // The BarycenterPlacer is used for the placement.
-    placer = getBarycenterPlacer();
-
-    // Postprocessing is applied at each level after the single level layout.
-    // In this example a FastMultipoleEmbedder with zero iterations is used for postprocessing.
-    sl->setExtraScalingSteps(0);
-    // No scaling is done. It is fixed to factor 1.
-    sl->setScalingType(ScalingLayout::ScalingType::RelativeToDrawing);
-    sl->setScaling(1.0, 1.0);
-}
-
 static void configureNoTwistLayout(ScalingLayout *sl, MultilevelBuilder *&merger, InitialPlacer *&placer)
 {
     // The LocalBiconnectedMerger is used for the coarsening phase.
@@ -127,8 +97,6 @@ void layoutMulti(string file)
     MultilevelBuilder *merger;
     InitialPlacer *placer;
 
-    // configureFastLayout(sl, merger, placer);
-    // configureNiceLayout(sl, merger, placer);
     configureNoTwistLayout(sl, merger, placer);
 
     // Then the ModularMultilevelMixer is created.
