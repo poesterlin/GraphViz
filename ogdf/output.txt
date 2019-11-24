@@ -1,0 +1,1039 @@
+--- skip ogdf build
+--- compile source files
+--- link source files
+--- delete o files
+--- change access rights
+--- run binary
+
+
+
+
+
+10 clusters max
+Graph 0:
+average path length: 2.24138
+graph diameter: 4
+10 clusters
+Connected components per cluster: 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 
+Degree distribution for cluster: (degree -> amount) 
+0: 1   |=
+1: 1   |=
+
+Degree distribution for cluster: (degree -> amount) 
+0: 1   |=
+1: 1   |=
+
+Degree distribution for cluster: (degree -> amount) 
+0: 2   |==
+1: 3   |===
+2: 0   |
+3: 2   |==
+4: 1   |=
+
+Degree distribution for cluster: (degree -> amount) 
+0: 1   |=
+1: 0   |
+2: 2   |==
+3: 0   |
+4: 2   |==
+5: 0   |
+6: 1   |=
+
+Degree distribution for cluster: (degree -> amount) 
+0: 2   |==
+1: 0   |
+2: 0   |
+3: 0   |
+4: 0   |
+5: 0   |
+6: 1   |=
+
+Degree distribution for cluster: (degree -> amount) 
+0: 1   |=
+1: 0   |
+2: 0   |
+3: 1   |=
+
+Degree distribution for cluster: (degree -> amount) 
+0: 1   |=
+1: 0   |
+2: 0   |
+3: 0   |
+4: 0   |
+5: 1   |=
+
+Degree distribution for cluster: (degree -> amount) 
+0: 2   |==
+1: 0   |
+2: 0   |
+3: 0   |
+4: 0   |
+5: 1   |=
+
+Degree distribution for cluster: (degree -> amount) 
+0: 1   |=
+
+Degree distribution for cluster: (degree -> amount) 
+0: 1   |=
+
+
+Graph 1:
+average path length: 2.31264
+graph diameter: 5
+10 clusters
+Connected components per cluster: 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 
+Degree distribution for cluster: (degree -> amount) 
+0: 1   |=
+1: 2   |==
+2: 1   |=
+3: 1   |=
+4: 2   |==
+
+Degree distribution for cluster: (degree -> amount) 
+0: 1   |=
+1: 0   |
+2: 0   |
+3: 0   |
+4: 1   |=
+5: 0   |
+6: 1   |=
+
+Degree distribution for cluster: (degree -> amount) 
+0: 1   |=
+1: 0   |
+2: 1   |=
+3: 1   |=
+
+Degree distribution for cluster: (degree -> amount) 
+0: 1   |=
+1: 1   |=
+
+Degree distribution for cluster: (degree -> amount) 
+0: 1   |=
+1: 0   |
+2: 1   |=
+
+Degree distribution for cluster: (degree -> amount) 
+0: 1   |=
+1: 1   |=
+2: 0   |
+3: 1   |=
+4: 0   |
+5: 0   |
+6: 1   |=
+
+Degree distribution for cluster: (degree -> amount) 
+0: 1   |=
+1: 0   |
+2: 1   |=
+
+Degree distribution for cluster: (degree -> amount) 
+0: 1   |=
+
+Degree distribution for cluster: (degree -> amount) 
+0: 1   |=
+1: 0   |
+2: 0   |
+3: 0   |
+4: 0   |
+5: 1   |=
+
+Degree distribution for cluster: (degree -> amount) 
+0: 1   |=
+1: 1   |=
+2: 0   |
+3: 2   |==
+
+
+Graph 2:
+average path length: 2.31724
+graph diameter: 4
+10 clusters
+Connected components per cluster: 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 
+Degree distribution for cluster: (degree -> amount) 
+0: 2   |==
+1: 2   |==
+2: 1   |=
+3: 0   |
+4: 0   |
+5: 1   |=
+
+Degree distribution for cluster: (degree -> amount) 
+0: 1   |=
+1: 1   |=
+2: 2   |==
+3: 1   |=
+
+Degree distribution for cluster: (degree -> amount) 
+
+Degree distribution for cluster: (degree -> amount) 
+0: 1   |=
+
+Degree distribution for cluster: (degree -> amount) 
+0: 1   |=
+1: 1   |=
+2: 1   |=
+3: 0   |
+4: 0   |
+5: 2   |==
+
+Degree distribution for cluster: (degree -> amount) 
+0: 2   |==
+1: 0   |
+2: 0   |
+3: 1   |=
+
+Degree distribution for cluster: (degree -> amount) 
+0: 2   |==
+
+Degree distribution for cluster: (degree -> amount) 
+0: 1   |=
+1: 2   |==
+
+Degree distribution for cluster: (degree -> amount) 
+0: 3   |===
+
+Degree distribution for cluster: (degree -> amount) 
+0: 1   |=
+1: 0   |
+2: 1   |=
+
+
+Graph 3:
+average path length: 2.25517
+graph diameter: 4
+10 clusters
+Connected components per cluster: 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 
+Degree distribution for cluster: (degree -> amount) 
+0: 1   |=
+1: 2   |==
+2: 0   |
+3: 1   |=
+
+Degree distribution for cluster: (degree -> amount) 
+
+Degree distribution for cluster: (degree -> amount) 
+0: 4   |====
+1: 0   |
+2: 3   |===
+
+Degree distribution for cluster: (degree -> amount) 
+0: 1   |=
+
+Degree distribution for cluster: (degree -> amount) 
+0: 1   |=
+1: 1   |=
+2: 1   |=
+3: 1   |=
+
+Degree distribution for cluster: (degree -> amount) 
+0: 1   |=
+1: 0   |
+2: 0   |
+3: 0   |
+4: 1   |=
+
+Degree distribution for cluster: (degree -> amount) 
+0: 2   |==
+
+Degree distribution for cluster: (degree -> amount) 
+0: 3   |===
+1: 1   |=
+
+Degree distribution for cluster: (degree -> amount) 
+0: 1   |=
+1: 0   |
+2: 1   |=
+
+Degree distribution for cluster: (degree -> amount) 
+0: 3   |===
+1: 0   |
+2: 0   |
+3: 0   |
+4: 1   |=
+
+
+Graph 4:
+average path length: 2.36782
+graph diameter: 5
+10 clusters
+Connected components per cluster: 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 
+Degree distribution for cluster: (degree -> amount) 
+0: 1   |=
+1: 1   |=
+
+Degree distribution for cluster: (degree -> amount) 
+0: 1   |=
+1: 0   |
+2: 0   |
+3: 0   |
+4: 1   |=
+5: 0   |
+6: 1   |=
+
+Degree distribution for cluster: (degree -> amount) 
+0: 2   |==
+1: 0   |
+2: 0   |
+3: 0   |
+4: 1   |=
+
+Degree distribution for cluster: (degree -> amount) 
+0: 1   |=
+1: 1   |=
+2: 1   |=
+
+Degree distribution for cluster: (degree -> amount) 
+0: 1   |=
+1: 0   |
+2: 1   |=
+3: 2   |==
+4: 0   |
+5: 1   |=
+
+Degree distribution for cluster: (degree -> amount) 
+0: 1   |=
+1: 1   |=
+2: 0   |
+3: 1   |=
+
+Degree distribution for cluster: (degree -> amount) 
+0: 1   |=
+1: 1   |=
+2: 1   |=
+3: 0   |
+4: 0   |
+5: 1   |=
+
+Degree distribution for cluster: (degree -> amount) 
+0: 1   |=
+1: 0   |
+2: 0   |
+3: 1   |=
+
+Degree distribution for cluster: (degree -> amount) 
+0: 2   |==
+
+Degree distribution for cluster: (degree -> amount) 
+0: 2   |==
+1: 0   |
+2: 1   |=
+
+
+Graph 5:
+average path length: 2.25287
+graph diameter: 4
+10 clusters
+Connected components per cluster: 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 
+Degree distribution for cluster: (degree -> amount) 
+0: 1   |=
+1: 1   |=
+2: 3   |===
+3: 0   |
+4: 1   |=
+5: 1   |=
+6: 1   |=
+
+Degree distribution for cluster: (degree -> amount) 
+0: 1   |=
+1: 1   |=
+2: 0   |
+3: 1   |=
+
+Degree distribution for cluster: (degree -> amount) 
+0: 1   |=
+1: 1   |=
+
+Degree distribution for cluster: (degree -> amount) 
+0: 1   |=
+1: 1   |=
+
+Degree distribution for cluster: (degree -> amount) 
+0: 3   |===
+1: 0   |
+2: 1   |=
+3: 1   |=
+
+Degree distribution for cluster: (degree -> amount) 
+0: 1   |=
+1: 0   |
+2: 1   |=
+
+Degree distribution for cluster: (degree -> amount) 
+0: 1   |=
+
+Degree distribution for cluster: (degree -> amount) 
+0: 1   |=
+1: 0   |
+2: 0   |
+3: 0   |
+4: 0   |
+5: 0   |
+6: 0   |
+7: 1   |=
+
+Degree distribution for cluster: (degree -> amount) 
+0: 1   |=
+1: 0   |
+2: 0   |
+3: 1   |=
+
+Degree distribution for cluster: (degree -> amount) 
+0: 1   |=
+1: 2   |==
+
+
+Graph 6:
+average path length: 2.29425
+graph diameter: 5
+10 clusters
+Connected components per cluster: 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 
+Degree distribution for cluster: (degree -> amount) 
+0: 2   |==
+1: 2   |==
+2: 2   |==
+3: 1   |=
+4: 1   |=
+5: 0   |
+6: 1   |=
+
+Degree distribution for cluster: (degree -> amount) 
+0: 1   |=
+1: 1   |=
+2: 1   |=
+
+Degree distribution for cluster: (degree -> amount) 
+0: 1   |=
+1: 1   |=
+2: 1   |=
+3: 0   |
+4: 1   |=
+
+Degree distribution for cluster: (degree -> amount) 
+0: 1   |=
+1: 0   |
+2: 0   |
+3: 0   |
+4: 2   |==
+
+Degree distribution for cluster: (degree -> amount) 
+
+Degree distribution for cluster: (degree -> amount) 
+0: 1   |=
+1: 0   |
+2: 0   |
+3: 1   |=
+
+Degree distribution for cluster: (degree -> amount) 
+0: 2   |==
+
+Degree distribution for cluster: (degree -> amount) 
+0: 1   |=
+1: 1   |=
+2: 0   |
+3: 1   |=
+
+Degree distribution for cluster: (degree -> amount) 
+0: 1   |=
+1: 0   |
+2: 1   |=
+3: 1   |=
+
+Degree distribution for cluster: (degree -> amount) 
+0: 1   |=
+
+
+Graph 7:
+average path length: 2.07586
+graph diameter: 4
+10 clusters
+Connected components per cluster: 1, 2, 1, 1, 1, 1, 1, 1, 1, 1, 
+Degree distribution for cluster: (degree -> amount) 
+0: 2   |==
+1: 0   |
+2: 3   |===
+3: 0   |
+4: 2   |==
+5: 0   |
+6: 0   |
+7: 1   |=
+
+Degree distribution for cluster: (degree -> amount) 
+0: 1   |=
+1: 0   |
+2: 0   |
+3: 0   |
+4: 0   |
+5: 0   |
+6: 0   |
+7: 0   |
+8: 0   |
+9: 1   |=
+
+Degree distribution for cluster: (degree -> amount) 
+0: 1   |=
+
+Degree distribution for cluster: (degree -> amount) 
+0: 1   |=
+1: 0   |
+2: 1   |=
+
+Degree distribution for cluster: (degree -> amount) 
+0: 1   |=
+1: 3   |===
+
+Degree distribution for cluster: (degree -> amount) 
+0: 1   |=
+1: 0   |
+2: 0   |
+3: 1   |=
+
+Degree distribution for cluster: (degree -> amount) 
+0: 2   |==
+
+Degree distribution for cluster: (degree -> amount) 
+0: 1   |=
+1: 0   |
+2: 0   |
+3: 1   |=
+4: 0   |
+5: 1   |=
+
+Degree distribution for cluster: (degree -> amount) 
+0: 2   |==
+
+Degree distribution for cluster: (degree -> amount) 
+0: 1   |=
+1: 0   |
+2: 0   |
+3: 0   |
+4: 3   |===
+
+
+Graph 8:
+average path length: 2.04598
+graph diameter: 4
+10 clusters
+Connected components per cluster: 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 
+Degree distribution for cluster: (degree -> amount) 
+0: 1   |=
+1: 0   |
+2: 0   |
+3: 1   |=
+4: 1   |=
+5: 0   |
+6: 2   |==
+
+Degree distribution for cluster: (degree -> amount) 
+0: 2   |==
+1: 3   |===
+2: 0   |
+3: 0   |
+4: 1   |=
+
+Degree distribution for cluster: (degree -> amount) 
+0: 2   |==
+1: 0   |
+2: 1   |=
+3: 1   |=
+4: 1   |=
+
+Degree distribution for cluster: (degree -> amount) 
+0: 1   |=
+
+Degree distribution for cluster: (degree -> amount) 
+0: 1   |=
+
+Degree distribution for cluster: (degree -> amount) 
+0: 1   |=
+1: 1   |=
+2: 0   |
+3: 2   |==
+
+Degree distribution for cluster: (degree -> amount) 
+0: 2   |==
+1: 1   |=
+
+Degree distribution for cluster: (degree -> amount) 
+0: 1   |=
+
+Degree distribution for cluster: (degree -> amount) 
+0: 1   |=
+
+Degree distribution for cluster: (degree -> amount) 
+0: 1   |=
+1: 0   |
+2: 1   |=
+3: 1   |=
+
+
+Graph 9:
+average path length: 2.29885
+graph diameter: 5
+9 clusters
+Connected components per cluster: 1, 1, 1, 1, 1, 1, 1, 1, 1, 
+Degree distribution for cluster: (degree -> amount) 
+0: 1   |=
+1: 2   |==
+2: 3   |===
+3: 1   |=
+4: 2   |==
+
+Degree distribution for cluster: (degree -> amount) 
+0: 2   |==
+1: 3   |===
+2: 0   |
+3: 1   |=
+
+Degree distribution for cluster: (degree -> amount) 
+0: 1   |=
+
+Degree distribution for cluster: (degree -> amount) 
+0: 1   |=
+
+Degree distribution for cluster: (degree -> amount) 
+0: 1   |=
+1: 0   |
+2: 1   |=
+3: 1   |=
+
+Degree distribution for cluster: (degree -> amount) 
+0: 1   |=
+1: 1   |=
+2: 1   |=
+3: 1   |=
+
+Degree distribution for cluster: (degree -> amount) 
+0: 1   |=
+
+Degree distribution for cluster: (degree -> amount) 
+0: 1   |=
+1: 1   |=
+2: 0   |
+3: 0   |
+4: 1   |=
+
+Degree distribution for cluster: (degree -> amount) 
+0: 1   |=
+1: 1   |=
+
+
+
+
+
+5 clusters max
+Graph 0:
+average path length: 2.32874
+graph diameter: 5
+5 clusters
+Connected components per cluster: 1, 1, 1, 1, 1, 
+Degree distribution for cluster: (degree -> amount) 
+0: 1   |=
+1: 1   |=
+2: 1   |=
+3: 0   |
+4: 5   |=====
+5: 3   |===
+6: 1   |=
+7: 2   |==
+
+Degree distribution for cluster: (degree -> amount) 
+0: 2   |==
+1: 1   |=
+2: 1   |=
+3: 1   |=
+4: 0   |
+5: 1   |=
+
+Degree distribution for cluster: (degree -> amount) 
+0: 1   |=
+1: 0   |
+2: 1   |=
+3: 0   |
+4: 1   |=
+5: 1   |=
+
+Degree distribution for cluster: (degree -> amount) 
+0: 1   |=
+1: 0   |
+2: 2   |==
+3: 0   |
+4: 1   |=
+5: 1   |=
+
+Degree distribution for cluster: (degree -> amount) 
+0: 1   |=
+
+
+Graph 1:
+average path length: 2.30805
+graph diameter: 5
+5 clusters
+Connected components per cluster: 1, 1, 1, 1, 1, 
+Degree distribution for cluster: (degree -> amount) 
+0: 1   |=
+1: 1   |=
+2: 1   |=
+3: 0   |
+4: 1   |=
+
+Degree distribution for cluster: (degree -> amount) 
+0: 2   |==
+1: 1   |=
+2: 1   |=
+3: 1   |=
+4: 1   |=
+5: 2   |==
+6: 2   |==
+7: 1   |=
+
+Degree distribution for cluster: (degree -> amount) 
+0: 4   |====
+1: 0   |
+2: 0   |
+3: 0   |
+4: 1   |=
+5: 3   |===
+6: 1   |=
+
+Degree distribution for cluster: (degree -> amount) 
+0: 2   |==
+1: 1   |=
+2: 0   |
+3: 0   |
+4: 1   |=
+
+Degree distribution for cluster: (degree -> amount) 
+0: 1   |=
+1: 1   |=
+
+
+Graph 2:
+average path length: 2.26897
+graph diameter: 4
+5 clusters
+Connected components per cluster: 1, 1, 1, 1, 1, 
+Degree distribution for cluster: (degree -> amount) 
+0: 2   |==
+1: 0   |
+2: 1   |=
+3: 1   |=
+4: 1   |=
+5: 2   |==
+6: 0   |
+7: 1   |=
+
+Degree distribution for cluster: (degree -> amount) 
+0: 1   |=
+1: 2   |==
+2: 0   |
+3: 2   |==
+4: 0   |
+5: 1   |=
+6: 1   |=
+
+Degree distribution for cluster: (degree -> amount) 
+0: 1   |=
+1: 1   |=
+2: 1   |=
+3: 0   |
+4: 0   |
+5: 1   |=
+
+Degree distribution for cluster: (degree -> amount) 
+0: 1   |=
+1: 2   |==
+2: 1   |=
+3: 0   |
+4: 0   |
+5: 1   |=
+
+Degree distribution for cluster: (degree -> amount) 
+0: 2   |==
+1: 0   |
+2: 1   |=
+3: 3   |===
+
+
+Graph 3:
+average path length: 2.32874
+graph diameter: 5
+5 clusters
+Connected components per cluster: 1, 1, 1, 1, 1, 
+Degree distribution for cluster: (degree -> amount) 
+0: 5   |=====
+1: 1   |=
+2: 2   |==
+3: 1   |=
+4: 0   |
+5: 1   |=
+
+Degree distribution for cluster: (degree -> amount) 
+0: 1   |=
+1: 1   |=
+2: 1   |=
+3: 0   |
+4: 1   |=
+5: 1   |=
+6: 1   |=
+
+Degree distribution for cluster: (degree -> amount) 
+0: 1   |=
+1: 0   |
+2: 3   |===
+3: 1   |=
+4: 0   |
+5: 0   |
+6: 1   |=
+
+Degree distribution for cluster: (degree -> amount) 
+0: 1   |=
+1: 0   |
+2: 0   |
+3: 1   |=
+4: 1   |=
+5: 2   |==
+
+Degree distribution for cluster: (degree -> amount) 
+0: 1   |=
+1: 0   |
+2: 1   |=
+3: 0   |
+4: 1   |=
+
+
+Graph 4:
+average path length: 2.27356
+graph diameter: 4
+5 clusters
+Connected components per cluster: 1, 1, 1, 1, 1, 
+Degree distribution for cluster: (degree -> amount) 
+0: 1   |=
+1: 0   |
+2: 3   |===
+3: 1   |=
+4: 2   |==
+5: 1   |=
+6: 2   |==
+
+Degree distribution for cluster: (degree -> amount) 
+0: 1   |=
+1: 1   |=
+2: 2   |==
+3: 0   |
+4: 1   |=
+
+Degree distribution for cluster: (degree -> amount) 
+0: 1   |=
+1: 0   |
+2: 2   |==
+3: 2   |==
+4: 0   |
+5: 0   |
+6: 1   |=
+
+Degree distribution for cluster: (degree -> amount) 
+0: 1   |=
+1: 1   |=
+2: 2   |==
+3: 0   |
+4: 1   |=
+5: 2   |==
+
+Degree distribution for cluster: (degree -> amount) 
+0: 1   |=
+1: 1   |=
+
+
+Graph 5:
+average path length: 2.28046
+graph diameter: 5
+5 clusters
+Connected components per cluster: 1, 1, 1, 1, 1, 
+Degree distribution for cluster: (degree -> amount) 
+0: 1   |=
+1: 3   |===
+2: 3   |===
+3: 4   |====
+4: 4   |====
+5: 5   |=====
+
+Degree distribution for cluster: (degree -> amount) 
+0: 1   |=
+1: 0   |
+2: 1   |=
+3: 1   |=
+
+Degree distribution for cluster: (degree -> amount) 
+0: 1   |=
+1: 1   |=
+2: 1   |=
+
+Degree distribution for cluster: (degree -> amount) 
+0: 1   |=
+1: 1   |=
+
+Degree distribution for cluster: (degree -> amount) 
+0: 1   |=
+1: 1   |=
+
+
+Graph 6:
+average path length: 2.30575
+graph diameter: 4
+5 clusters
+Connected components per cluster: 1, 1, 1, 1, 1, 
+Degree distribution for cluster: (degree -> amount) 
+0: 1   |=
+1: 1   |=
+2: 1   |=
+
+Degree distribution for cluster: (degree -> amount) 
+0: 1   |=
+1: 1   |=
+2: 1   |=
+3: 6   |======
+4: 4   |====
+5: 0   |
+6: 0   |
+7: 1   |=
+
+Degree distribution for cluster: (degree -> amount) 
+0: 1   |=
+1: 3   |===
+2: 2   |==
+
+Degree distribution for cluster: (degree -> amount) 
+0: 1   |=
+
+Degree distribution for cluster: (degree -> amount) 
+0: 1   |=
+1: 0   |
+2: 0   |
+3: 1   |=
+4: 1   |=
+5: 1   |=
+6: 1   |=
+7: 1   |=
+
+
+Graph 7:
+average path length: 1.86667
+graph diameter: 4
+5 clusters
+Connected components per cluster: 1, 2, 1, 1, 1, 
+Degree distribution for cluster: (degree -> amount) 
+0: 1   |=
+1: 1   |=
+2: 0   |
+3: 2   |==
+4: 2   |==
+
+Degree distribution for cluster: (degree -> amount) 
+0: 2   |==
+1: 0   |
+2: 3   |===
+3: 2   |==
+4: 3   |===
+5: 2   |==
+6: 1   |=
+7: 1   |=
+
+Degree distribution for cluster: (degree -> amount) 
+0: 2   |==
+1: 1   |=
+2: 0   |
+3: 0   |
+4: 1   |=
+5: 1   |=
+
+Degree distribution for cluster: (degree -> amount) 
+0: 1   |=
+1: 3   |===
+
+Degree distribution for cluster: (degree -> amount) 
+0: 1   |=
+
+
+Graph 8:
+average path length: 2.34023
+graph diameter: 5
+5 clusters
+Connected components per cluster: 1, 1, 1, 1, 1, 
+Degree distribution for cluster: (degree -> amount) 
+0: 1   |=
+1: 4   |====
+2: 1   |=
+3: 2   |==
+4: 3   |===
+5: 2   |==
+
+Degree distribution for cluster: (degree -> amount) 
+0: 1   |=
+1: 0   |
+2: 0   |
+3: 1   |=
+4: 1   |=
+5: 1   |=
+
+Degree distribution for cluster: (degree -> amount) 
+0: 2   |==
+1: 2   |==
+2: 1   |=
+3: 0   |
+4: 0   |
+5: 1   |=
+
+Degree distribution for cluster: (degree -> amount) 
+0: 1   |=
+
+Degree distribution for cluster: (degree -> amount) 
+0: 1   |=
+1: 2   |==
+2: 2   |==
+3: 1   |=
+
+
+Graph 9:
+average path length: 2.25517
+graph diameter: 4
+5 clusters
+Connected components per cluster: 1, 1, 1, 1, 1, 
+Degree distribution for cluster: (degree -> amount) 
+0: 1   |=
+1: 2   |==
+2: 3   |===
+3: 0   |
+4: 2   |==
+
+Degree distribution for cluster: (degree -> amount) 
+0: 1   |=
+1: 1   |=
+2: 0   |
+3: 0   |
+4: 1   |=
+
+Degree distribution for cluster: (degree -> amount) 
+0: 3   |===
+1: 1   |=
+2: 3   |===
+3: 1   |=
+4: 0   |
+5: 0   |
+6: 1   |=
+
+Degree distribution for cluster: (degree -> amount) 
+0: 1   |=
+1: 0   |
+2: 3   |===
+3: 1   |=
+4: 1   |=
+
+Degree distribution for cluster: (degree -> amount) 
+0: 1   |=
+1: 0   |
+2: 2   |==
+3: 0   |
+4: 1   |=
+
+

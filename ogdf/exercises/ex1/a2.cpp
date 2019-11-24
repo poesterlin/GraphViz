@@ -1,12 +1,9 @@
 #include <ogdf/basic/graph_generators.h>
 #include <ogdf/basic/simple_graph_alg.h>
 #include <ogdf/fileformats/GraphIO.h>
-#include <ogdf/energybased/FMMMLayout.h>
-#include <ogdf/basic/Array.h>
 #include <ogdf/basic/Graph_d.h>
 #include <ogdf/basic/List.h>
 #include <ogdf/graphalg/ShortestPathAlgorithms.h>
-#include <string>
 
 using namespace ogdf;
 using namespace std;
@@ -98,9 +95,8 @@ void connectedComponents(ClusterGraph C)
     cout << endl;
 }
 
-void diameter(ClusterGraph C)
+void diameter(Graph G)
 {
-    Graph G = *C.getGraph();
     NodeArray<NodeArray<int>> shortestPathMatrix(G);
 
     for (node v : G.nodes)
@@ -112,28 +108,29 @@ void diameter(ClusterGraph C)
     bfs_SPAP(G, shortestPathMatrix, 1);
 
     int max = numeric_limits<int>::infinity();
-
+    int sum = 0;
     for (auto i = shortestPathMatrix.begin(); i != shortestPathMatrix.end(); i++)
     {
         NodeArray<int> line = *i;
         for (auto j = line.begin(); j != line.end(); j++)
         {
             int cost = *j;
+            sum += cost;
             if (cost > max)
             {
                 max = cost;
             }
         }
     }
-
+    double paths = G.nodes.size() * (G.nodes.size() - 1);
+    double avg = sum / paths;
+    cout << "average path length: " << avg << endl;
     cout << "graph diameter: " << max << endl;
 }
 
-void analyseGraph(ClusterGraph C, int i)
+void analyseGraph(ClusterGraph C)
 {
-    cout << "\033[1;31m" << "Graph " << i << ":\033[0m\n";
     cout << C.numberOfClusters() << " clusters" << endl;
-    diameter(C);
     connectedComponents(C);
     degreeDistribution(C);
 
@@ -147,11 +144,13 @@ int main()
     cout << "10 clusters max" << endl;
     for (int i = 0; i < 10; i++)
     {
+        cout << "Graph " << i << ":" << endl;
         emptyGraph(G, 0);
         randomSimpleGraph(G, 30, 70);
+        diameter(G);
         ClusterGraph C(G);
         randomClusterGraph(C, G, 9);
-        analyseGraph(C, i);
+        analyseGraph(C);
     }
 
     cout << endl
@@ -161,11 +160,13 @@ int main()
     cout << "5 clusters max" << endl;
     for (int i = 0; i < 10; i++)
     {
+        cout << "Graph " << i << ":" << endl;
         emptyGraph(G, 0);
         randomSimpleGraph(G, 30, 70);
+        diameter(G);
         ClusterGraph C(G);
         randomClusterGraph(C, G, 4);
-        analyseGraph(C, i);
+        analyseGraph(C);
     }
 
     return 0;
