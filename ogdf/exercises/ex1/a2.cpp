@@ -5,44 +5,139 @@
 #include <ogdf/basic/Array.h>
 #include <ogdf/basic/Graph_d.h>
 #include <ogdf/basic/List.h>
+#include <ogdf/graphalg/ShortestPathAlgorithms.h>
 #include <string>
 
 using namespace ogdf;
 using namespace std;
 
+void nodeDistribution(ClusterElement c, Array<int> &dist)
+{
+    auto func = [](node v) {
+        return v->degree();
+    };
+    int maxval = 0;
+    int minval = std::numeric_limits<int>::max();
+
+    for (node v : c.nodes)
+    {
+        Math::updateMax(maxval, func(v));
+        Math::updateMin(minval, func(v));
+    }
+
+    dist.init(minval, maxval, 0);
+    for (node v : c.nodes)
+    {
+        ++dist[func(v)];
+    }
+}
+
+int connectedComponents(const ClusterElement &C, NodeArray<int> &component)
+{
+    int nComponent = 0;
+    component.fill(-1);
+
+    ArrayBuffer<node> S;
+
+    for (node v : C.nodes)
+    {
+        if (component[v] != -1)
+            continue;
+
+        S.push(v);
+        component[v] = nComponent;
+
+        while (!S.empty())
+        {
+            node w = S.popRet();
+            for (adjEntry adj : w->adjEntries)
+            {
+                node x = adj->twinNode();
+                if (component[x] == -1)
+                {
+                    component[x] = nComponent;
+                    S.push(x);
+                }
+            }
+        }
+
+        ++nComponent;
+    }
+
+    return nComponent;
+}
+
 void degreeDistribution(ClusterGraph C)
 {
-    Array<int> arr;
-    degreeDistribution(C, arr);
-    Array<int>::iterator ptr;
-    cout << "Degree distribution: ";
-    for (ptr = arr.begin(); ptr != arr.end(); ptr++)
+    cluster c;
+    forall_clusters(c, C)
     {
-        cout << ptr - arr.begin() + 1 << " -> " << *ptr << ", ";
+        Array<int> arr;
+        nodeDistribution(*c, arr);
+        cout << "Degree distribution for cluster: (degree -> amount) " << endl;
+        Array<int>::iterator ptr;
+        for (ptr = arr.begin(); ptr != arr.end(); ptr++)
+        {
+            cout << ptr - arr.begin() << ": " << *ptr << "   |" << string(*ptr, '=') << endl;
+            // cout << *ptr << endl;
+        }
+        cout << endl;
     }
-    cout << endl;
 }
 
 void connectedComponents(ClusterGraph C)
 {
-    NodeArray<int> arr;
-    List<node> nodes;
-    connectedComponents(C, arr);
-    NodeArray<int>::iterator ptr;
-    cout << "Connected components: " << endl;
-    for (ptr = arr.begin(); ptr != arr.end(); ptr++)
+    cout << "Connected components per cluster: ";
+    cluster c;
+    forall_clusters(c, C)
     {
-        cout << *ptr << ", ";
+        NodeArray<int> arr = NodeArray<int>(*C.getGraph());
+        auto comp = connectedComponents(*c, arr);
+        cout << comp << ", ";
     }
+    cout << endl;
+}
+
+void diameter(ClusterGraph C)
+{
+    Graph G = *C.getGraph();
+    NodeArray<NodeArray<int>> shortestPathMatrix(G);
+
+    for (node v : G.nodes)
+    {
+        shortestPathMatrix[v].init(G, numeric_limits<int>::infinity());
+        shortestPathMatrix[v][v] = 0;
+    }
+
+    bfs_SPAP(G, shortestPathMatrix, 1);
+
+    int max = numeric_limits<int>::infinity();
+
+    for (auto i = shortestPathMatrix.begin(); i != shortestPathMatrix.end(); i++)
+    {
+        NodeArray<int> line = *i;
+        for (auto j = line.begin(); j != line.end(); j++)
+        {
+            int cost = *j;
+            if (cost > max)
+            {
+                max = cost;
+            }
+        }
+    }
+
+    cout << "graph diameter: " << max << endl;
 }
 
 void analyseGraph(ClusterGraph C, int i)
 {
-    cout << "Graph " << i << " has " << C.numberOfClusters() << " clusters." << endl;
+    cout << "\033[1;31m" << "Graph " << i << ":\033[0m\n";
+    cout << C.numberOfClusters() << " clusters" << endl;
+    diameter(C);
+    connectedComponents(C);
     degreeDistribution(C);
-    auto narr = new NodeArray<int>(C);
-    List<node> nodes;
-    cout << "connected components: " << connectedComponents(C, *narr, &nodes) << endl;
+
+    cout << endl;
 }
 
 int main()
