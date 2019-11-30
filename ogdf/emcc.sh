@@ -27,16 +27,13 @@ echo --- compile source files
 FILES=""
 while [ $# -gt 0 ]     
 do                   
-    g++ -std=c++17 -I$path/include -I$path/src -o $1.o -c $1
-    FILES="${FILES} $1.o"
+    em++ -std=c++11 -O0 -I$path/include -I$path/src -o $1.bc -c $1
+    FILES="${FILES} $1.bc"
     shift                  
 done
 
 echo --- link source files
-g++ -std=c++17 -o output_binary.bin -L$path/ $FILES -lOGDF -lCOIN -pthread
-
-echo --- delete o files
-rm $FILES
+em++ -std=c++11 -s WASM=1 -O0 -o hello.html -L$path/ $FILES -lOGDF -lCOIN --memory-init-file 0
 
 echo --- change access rights
 chmod +x output_binary.bin
