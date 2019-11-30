@@ -7,13 +7,58 @@
 #include <ogdf/basic/Graph_d.h>
 #include <ogdf/basic/List.h>
 #include <ogdf/graphalg/ShortestPathAlgorithms.h>
+#include <ogdf/layered/BarycenterHeuristic.h>
+#include <ogdf/layered/CoffmanGrahamRanking.h>
+#include <ogdf/layered/LongestPathRanking.h>
+#include <ogdf/layered/OptimalRanking.h>
+#include <ogdf/layered/GridSifting.h>
+#include <ogdf/layered/GreedyInsertHeuristic.h>
+#include <ogdf/layered/GreedySwitchHeuristic.h>
+#include <ogdf/layered/GridSifting.h>
+#include <ogdf/layered/MedianHeuristic.h>
+#include <ogdf/layered/SiftingHeuristic.h>
+#include <ogdf/layered/SplitHeuristic.h>
+#include <ogdf/layered/SugiyamaLayout.h>
 
 using namespace ogdf;
 using namespace std;
 
+RankingModule *getRanking()
+{
+    RankingModule *heuristic;
+
+    /*
+        ranking options
+    */
+
+    heuristic = new LongestPathRanking();
+    // heuristic = new CoffmanGrahamRanking();
+    // heuristic = new LongestPathRanking();
+
+    return heuristic;
+}
+
+LayeredCrossMinModule *getCrossMin()
+{
+    LayeredCrossMinModule *heuristic;
+
+    /*
+        X-ing optimization options
+    */
+
+    // heuristic = new BarycenterHeuristic();
+    heuristic = new GreedyInsertHeuristic();
+    // heuristic = new GreedyInsertHeuristic();
+    // heuristic = new GreedySwitchHeuristic();
+    // heuristic = new GridSifting();
+    // heuristic = new MedianHeuristic();
+    // heuristic = new SiftingHeuristic();
+
+    return heuristic;
+}
+
 int main()
 {
-
     string files[20] = {
         "g.10.1.graphml",
         "g.10.22.graphml",
@@ -39,9 +84,15 @@ int main()
 
     for (auto i = 0; i < 20; i++)
     {
-        // read file
         Graph G;
-        GraphAttributes GA(G);
+        GraphAttributes GA(G, GraphAttributes::nodeGraphics |
+                                  GraphAttributes::edgeGraphics |
+                                  GraphAttributes::nodeLabel |
+                                  GraphAttributes::edgeStyle |
+                                  GraphAttributes::nodeStyle |
+                                  GraphAttributes::nodeTemplate);
+
+        // read file
         if (!GraphIO::read(G, string("./exercises/ex4/graphs/").append(files[i])))
         {
             cerr << "Could not load gml" << endl;
@@ -50,14 +101,15 @@ int main()
 
         cout << files[i] << endl;
 
-        // make cluster graph
-        ClusterGraph C(G);
+        SugiyamaLayout layout;
 
-        cluster c;
-        forall_clusters(c, C)
-        {
-            cout << c->cCount() << "," << C.numberOfClusters() << endl;
-        }
+        layout.setRanking(getRanking());
+        layout.setCrossMin(getCrossMin());
+
+        layout.call(GA);
+
+        GraphIO::write(GA, string("./exercises/ex4/output/").append(files[i].substr(0, files[i].length() - 4).append(".svg")), GraphIO::drawSVG);
+        std::cout << "Layout of " << files[i] << " done" << std::endl;
     }
 
     return 0;
