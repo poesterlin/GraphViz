@@ -8,62 +8,107 @@
 using namespace ogdf;
 using namespace std;
 
+void connectedComponents(ClusterGraph C)
+{
+    cout << "connected components: ";
+    for (auto it = C.clusters.begin(); it != C.clusters.end(); it++)
+    {
+        cluster c = *it;
+        Graph G = *C.getGraph();
+        // copy graph to preserve the original
+        GraphCopy GC(G);
+
+        List<node> ClusterNodes;
+        c->getClusterNodes(ClusterNodes);
+
+        for (node v : G.nodes)
+        {
+            bool inCluster = false;
+            for (node n : ClusterNodes)
+            {
+                if (n->index() == v->index())
+                {
+                    inCluster = true;
+                    break;
+                }
+            }
+
+            // delete any node that is not in the same cluster
+            if (!inCluster)
+            {
+                GC.delNode(GC.copy(v));
+            }
+        }
+
+        NodeArray<int> narr(GC);
+        cout << connectedComponents(GC, narr, nullptr) << ", ";
+    }
+}
+
 void analyseGraph(ClusterGraph C)
 {
-    auto G = *C.getGraph();
-    const int nr = G.numberOfNodes();
-    auto internal = new vector<double>();
-    auto degrees = new vector<double>();
+    Graph G = *C.getGraph();
+
+    // setup matrix
+    NodeArray<NodeArray<int>> adj(G);
+    for (auto it = G.nodes.begin(); it != G.nodes.end(); ++it)
+    {
+        adj[*it].init(G);
+        adj[*it].fill(0);
+    }
+
+    // fill matrix with number of connetions
+    int edges = 0;
+    for (EdgeElement *e : G.edges)
+    {
+        edges++;
+        adj[e->source()][e->target()]++;
+        adj[e->target()][e->source()]++;
+    }
+
+    // list degrees
+    NodeArray<int> degrees(G);
     for (NodeElement *n : G.nodes)
     {
-        ListPure<edge> *outEdges = new ListPure<edge>;
-        ListPure<edge> *inEdges = new ListPure<edge>;
-        n->inEdges(*inEdges);
-        n->outEdges(*outEdges);
+        degrees[n] = n->degree();
+    }
 
-        for (auto e : *inEdges)
+    double mod = 0;
+    for (NodeElement *n : G.nodes)
+    {
+        for (NodeElement *v : G.nodes)
         {
-            outEdges->pushBack(e);
-        }
-
-        degrees->push_back(n->degree());
-        for (auto neighborEdge : *outEdges)
-        {
-            auto id = n->index();
-            NodeElement *neighbor = neighborEdge->target();
-            if (n == neighbor)
+            int inSameCluster = 0;
+            cluster c = C.firstCluster();
+            while ((c = c->succ()))
             {
+                bool nInCluster = false;
+                bool vInCluster = false;
+
+                List<NodeElement *> ClusterNodes;
+                c->getClusterNodes(ClusterNodes);
+
+                for (NodeElement *m : ClusterNodes)
+                {
+                    nInCluster = nInCluster || m->index() == n->index();
+                    vInCluster = vInCluster || m->index() == v->index();
+                }
+                if (vInCluster & nInCluster)
+                {
+                    inSameCluster = 1;
+                    break;
+                }
+            }
+            if (n->index() == v->index())
                 continue;
-            }
 
-            // check if node id is already in map
-            if (internal->size() > id)
-            {
-                internal->at(id) += 1;
-            }
-            else
-            {
-                internal->push_back(0);
-            }
+            mod = mod + 1 / ((float)(2 * edges)) * (adj[n][v] - (degrees[n] * degrees[v] / ((float)(2 * edges)))) * inSameCluster;
         }
     }
+    cout << "Modularity: " << mod << endl;
 
-    double res;
-    for (NodeElement *n : G.nodes)
-    {
-        auto id = n->index();
-        if (id >= internal->size())
-        {
-            continue;
-        }
-        internal->at(id) /= 2.0;
-        int edgecount = G.numberOfEdges();
-        res += (internal->at(id) / edgecount) - pow(degrees->at(id) / (2 * edgecount), 2);
-    }
-    cout << res << " modularity" << endl;
-
-    NodeArray<int> arr = NodeArray<int>(G);
-    cout << connectedComponents(G, arr, nullptr) << " components" << endl
+    connectedComponents(C);
+    cout << endl
          << endl;
 }
 
@@ -74,8 +119,7 @@ int main()
     cout << "10 clusters max" << endl;
     for (int i = 0; i < 10; i++)
     {
-        cout << "Graph " << i << ":" << endl
-             << endl;
+        cout << "Graph " << i << ":" << endl;
         emptyGraph(G, 0);
         randomSimpleGraph(G, 30, 70);
         ClusterGraph C(G);
@@ -90,8 +134,7 @@ int main()
     cout << "5 clusters max" << endl;
     for (int i = 0; i < 10; i++)
     {
-        cout << "Graph " << i << ": " << endl
-             << endl;
+        cout << "Graph " << i << ": " << endl;
         emptyGraph(G, 0);
         randomSimpleGraph(G, 30, 70);
         ClusterGraph C(G);

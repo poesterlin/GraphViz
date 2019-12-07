@@ -1,12 +1,5 @@
-#include <string>
-#include <ogdf/basic/graph_generators.h>
 #include <ogdf/fileformats/GraphIO.h>
-#include <ogdf/basic/graph_generators.h>
-#include <ogdf/basic/simple_graph_alg.h>
-#include <ogdf/fileformats/GraphIO.h>
-#include <ogdf/basic/Graph_d.h>
 #include <ogdf/basic/List.h>
-#include <ogdf/graphalg/ShortestPathAlgorithms.h>
 #include <ogdf/layered/BarycenterHeuristic.h>
 #include <ogdf/layered/CoffmanGrahamRanking.h>
 #include <ogdf/layered/LongestPathRanking.h>
@@ -19,9 +12,24 @@
 #include <ogdf/layered/SiftingHeuristic.h>
 #include <ogdf/layered/SplitHeuristic.h>
 #include <ogdf/layered/SugiyamaLayout.h>
+#include <ogdf/basic/Stopwatch.h>
+#include <ogdf/planarity/BoyerMyrvold.h>
 
 using namespace ogdf;
 using namespace std;
+
+double t;
+void startTime()
+{
+    t = 0;
+    usedTime(t);
+}
+
+void stopTime()
+{
+    std::cout << usedTime(t) << "s" << std::endl
+              << std::endl;
+}
 
 RankingModule *getRanking()
 {
@@ -31,9 +39,9 @@ RankingModule *getRanking()
         ranking options
     */
 
-    heuristic = new LongestPathRanking();
-    // heuristic = new CoffmanGrahamRanking();
     // heuristic = new LongestPathRanking();
+    // heuristic = new CoffmanGrahamRanking();
+    heuristic = new LongestPathRanking();
 
     return heuristic;
 }
@@ -46,13 +54,12 @@ LayeredCrossMinModule *getCrossMin()
         X-ing optimization options
     */
 
-    // heuristic = new BarycenterHeuristic();
-    heuristic = new GreedyInsertHeuristic();
-    // heuristic = new GreedyInsertHeuristic();
-    // heuristic = new GreedySwitchHeuristic();
-    // heuristic = new GridSifting();
-    // heuristic = new MedianHeuristic();
-    // heuristic = new SiftingHeuristic();
+    // heuristic = new BarycenterHeuristic();       // 
+    heuristic = new GreedyInsertHeuristic();     // 
+    // heuristic = new GreedySwitchHeuristic();     // 
+    // heuristic = new GridSifting();               // slow, orthogonal
+    // heuristic = new MedianHeuristic();           // 
+    // heuristic = new SiftingHeuristic();          // 
 
     return heuristic;
 }
@@ -84,23 +91,26 @@ int main()
 
     for (auto i = 0; i < 20; i++)
     {
+        startTime();
         Graph G;
         GraphAttributes GA(G, GraphAttributes::nodeGraphics |
                                   GraphAttributes::edgeGraphics |
                                   GraphAttributes::nodeLabel |
+                                  GraphAttributes::threeD |
+                                  GraphAttributes::edgeArrow |
                                   GraphAttributes::edgeStyle |
                                   GraphAttributes::nodeStyle |
                                   GraphAttributes::nodeTemplate);
 
-        // read file
         if (!GraphIO::read(G, string("./exercises/ex4/graphs/").append(files[i])))
         {
-            cerr << "Could not load gml" << endl;
+            cerr << "Could not load graphml" << endl;
             return 1;
         }
 
-        cout << files[i] << endl;
+        cout << files[i] << ",";
 
+        startTime();
         SugiyamaLayout layout;
 
         layout.setRanking(getRanking());
@@ -109,7 +119,9 @@ int main()
         layout.call(GA);
 
         GraphIO::write(GA, string("./exercises/ex4/output/").append(files[i].substr(0, files[i].length() - 4).append(".svg")), GraphIO::drawSVG);
-        std::cout << "Layout of " << files[i] << " done" << std::endl;
+        std::cout << "Layout of " << files[i] << " done in: ";
+
+        stopTime();
     }
 
     return 0;

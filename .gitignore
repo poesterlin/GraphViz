@@ -40,3 +40,9 @@ ogdf/libCOIN.a
 ogdf/libOGDF.a
 
 ogdf/.vs/
+
+ogdf/exercises/ex4/output/
+
+ogdf/CMakeDoxyfile.tpl
+
+ogdf/exercises/ex4/node_modules/
