@@ -46,3 +46,7 @@ ogdf/exercises/ex4/output/
 ogdf/CMakeDoxyfile.tpl
 
 ogdf/exercises/ex4/node_modules/
+
+ogdf/exercises/ex5/output/
+
+*.csv
