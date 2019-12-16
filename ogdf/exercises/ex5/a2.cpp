@@ -31,12 +31,11 @@ void save(GraphAttributes GA, string file, string method)
 
 void analyse(GraphAttributes GA)
 {
+	auto G = GA.constGraph();
 	BertaultLayout ba(1);
 	cout << "," << ba.edgeCrossings(GA);
 
-	auto G = GA.constGraph();
 	int sum = 0;
-
 	for (edge e : G.edges)
 	{
 		sum += GA.bends(e).size();
