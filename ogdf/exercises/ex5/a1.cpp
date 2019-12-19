@@ -45,7 +45,7 @@ int main()
 
             FMMMLayout fmmm;
             fmmm.randSeed(randomNumber(100000, 999999));
-            fmmm.useHighLevelOptions(true);
+            fmmm.useHighLevelOptions(false);
             fmmm.unitEdgeLength(15.0);
             fmmm.newInitialPlacement(true);
             fmmm.qualityVersusSpeed(FMMMOptions::QualityVsSpeed::GorgeousAndEfficient);
