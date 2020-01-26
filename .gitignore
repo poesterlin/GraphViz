@@ -50,3 +50,7 @@ ogdf/exercises/ex4/node_modules/
 ogdf/exercises/ex5/output/
 
 *.csv
+
+Exercise6/node_modules/
+
+Exercise6/twitter/
