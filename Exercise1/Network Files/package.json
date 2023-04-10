@@ -4,7 +4,7 @@
   "description": "",
   "main": "convert.js",
   "dependencies": {
-    "xml2js": "^0.4.22"
+    "xml2js": "^0.5.0"
   },
   "devDependencies": {},
   "scripts": {
